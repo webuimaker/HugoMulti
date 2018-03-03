@@ -1,0 +1,65 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "zafta"
+hasCJKLanguage = true
+
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+
+	
+DefaultContentLanguage = "en"
+copyright = "Everything is mine"
+
+[Languages]
+[Languages.en]
+title = "Multilingual Hugo Example"
+weight = 0
+languagename = "English"
+
+[[Languages.en.menu.main]]
+url = "/"
+name = "Home"
+weight = 1
+
+[[Languages.en.menu.main]]
+url = "/about/"
+name = "About"
+weight = 2
+
+[[Languages.en.menu.main]]
+url = "/journal/"
+name = "Journal"
+weight = 3
+
+[[Languages.en.menu.main]]
+url = "/contact/"
+name = "Contact"
+weight = 4
+
+[Languages.nl]
+title = "Multilingual Hugo Example"
+weight = 1
+languagename = "Dutch"
+
+[[Languages.nl.menu.main]]
+url = "/"
+name = "Huis"
+weight = 1
+
+[[Languages.nl.menu.main]]
+url = "/over/"
+name = "Over"
+weight = 2
+
+[[Languages.nl.menu.main]]
+url = "/dagboek/"
+name = "Dagboek"
+weight = 3
+
+[[Languages.nl.menu.main]]
+url = "/contact/"
+name = "Contact"
+weight = 4

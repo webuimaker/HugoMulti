@@ -1,0 +1,12 @@
+<div class="btn-group pull-right lang-dropdown"> 
+ <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+            {{ .Language.LanguageName }}
+            <span class="caret"></span>
+            </button>
+
+    <ul class="dropdown-menu lang-drop">
+       {{ range $.Site.Home.AllTranslations }}
+		<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+		{{ end }}
+    </ul>
+</div>
