@@ -12,7 +12,7 @@
 body{
 	font-family: "Helvetica Neue",'helvetica_neueregular',Helvetica,Arial,sans-serif,;
 	/*font-weight:600;*/
-	font-size:16px;
+	font-size:17px;
 	line-height:1.5em;
 }
 a {
@@ -177,4 +177,69 @@ footer {
 	margin-top:8px;	
 }
 .btn-lang a{min-width:71px;}
-    
+
+
+/******** subscribe*/
+.form-centered {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 140px; 
+ }
+
+.form-subscribe {
+  text-align: center;
+  border-radius: 4px;
+  border: 3px dashed rgba(0, 0, 0, 0.1);
+  padding: 64px 40px;
+  margin: 50px 0px; 
+ }
+  .form-subscribe h4 {
+    margin-bottom: 0; 
+	font-size:21px;
+	color:#222;
+}
+  .form-subscribe p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; 
+}
+  .form-subscribe form {
+    max-width: 400px;
+    margin: auto; }
+  .form-subscribe #form-subscribe-success {
+    max-width: 500px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 28px; }
+  .form-subscribe #subscribe-email-validation-error {
+    margin-bottom: 8px;
+    font-size: 15px; }
+  .form-subscribe .form-subscribe-twitter div {
+    margin: 24px 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3); }
+  .form-subscribe .form-subscribe-twitter a {
+    display: inline-block;}
+	
+.form-subscribe .append{
+    display: flex;
+}
+.form-subscribe .append input{
+    flex: 1;
+}
+.form-subscribe .append input{
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    height: 40px;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 0 12px;
+	}
+    .form-subscribe .btn{
+		border-radius:0px;
+		border:0px;
+	}
