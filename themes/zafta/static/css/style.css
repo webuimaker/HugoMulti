@@ -39,7 +39,7 @@ li{    list-style: none;}
 }
 .navTop{
 	margin-top:50px;
-	margin-bottom:8vh;
+	margin-bottom:12vh;
 }
 .lang-dropdown{
 	margin-left:15px;
@@ -51,7 +51,11 @@ li{    list-style: none;}
     margin-bottom: 40px;
 	font-size:28px;
 }
-
+.home ul{
+	margin-top:1em;
+	font-size: 1.3em;
+    line-height: 1.3em;
+}
 
 
 .navTop {
@@ -71,6 +75,7 @@ li{    list-style: none;}
       .navTop #navbar ul li {
         display: inline-block;
         margin-right: 1em; 
+		    font-size: 1.15em;
 }
         .navTop #navbar ul li a {
           text-decoration: none;
@@ -167,5 +172,9 @@ footer {
       margin-right: 0.5em; 
 	}
     
-
+.btn-lang{
+	float:right;
+	margin-top:8px;	
+}
+.btn-lang a{min-width:71px;}
     

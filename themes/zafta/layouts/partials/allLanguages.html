@@ -1,12 +1,35 @@
-<div class="btn-group pull-right lang-dropdown"> 
- <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
-            {{ .Language.LanguageName }}
-            <span class="caret"></span>
-            </button>
 
+<!--
+<div class="btn-group pull-right lang-dropdown"> 
+	 <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+		{{ .Language.LanguageName }}
+		<span class="caret"></span>
+	</button>
     <ul class="dropdown-menu lang-drop">
        {{ range $.Site.Home.AllTranslations }}
 		<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
 		{{ end }}
     </ul>
 </div>
+
+{{ if .IsTranslated }}
+<h4>{{ i18n "translations" }}</h4>
+<ul>
+    {{ range .Translations }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+    </li>
+    {{ end}}
+</ul>
+{{ end }}
+
+-->
+	{{ if .IsTranslated }}
+	<span class="btn-lang">    {{ range .Translations }}
+  
+        <a href="{{ .Permalink }}" class="btn btn-default">{{ .Language.LanguageName }}</a>
+   
+    {{ end}}
+</span>
+{{ end }}
+

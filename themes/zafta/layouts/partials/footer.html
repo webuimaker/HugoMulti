@@ -1,12 +1,22 @@
 
 <footer class="container">
-	<p>© Copyright © 2018 – 2018 Arjan.</p>
-	<nav><ul> {{- $currentPage := . -}}
+	<p>© Copyright © 2018 – 2018 Arjan. <a href="/about/colophon">Colophon</a></p>
+	<!--<nav><ul> {{- $currentPage := . -}}
 				{{ range .Site.Menus.main -}}
 				<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
 					<a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
 				</li>
 				{{- end }}
+	</ul></nav> -->
+	
+	<nav><ul> 
+				<li>
+					<a href="#">Terms of Use</a>
+				</li>
+				<li>
+					<a href="#">Privacy Policy</a>
+				</li>
+				
 	</ul></nav>
 </footer>
 
