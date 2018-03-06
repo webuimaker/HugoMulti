@@ -10,8 +10,8 @@
 	src: url('../fonts/helveticaneue-thin.svg#helvetica_neueregular') format('svg');
 }
 body{
-	font-family: 'helvetica_neueregular';
-	font-weight:600;
+	font-family: "Helvetica Neue",'helvetica_neueregular',Helvetica,Arial,sans-serif,;
+	/*font-weight:600;*/
 	font-size:16px;
 	line-height:1.5em;
 }
@@ -32,21 +32,24 @@ li{    list-style: none;}
     color: #ffffff;
     padding: .5rem .75rem .5rem .75rem;
 	line-height: 2em;
+	border-bottom:none;
 }
 .logo:hover{
 	color: #ffffff;
 }
 .navTop{
-	margin-top:15px;
+	margin-top:50px;
+	margin-bottom:8vh;
 }
 .lang-dropdown{
 	margin-left:15px;
 	margin-top:10px;
 }
 .home h1{
-	font-weight: 900;
+	font-weight: 600;
     line-height: 1.5em;
     margin-bottom: 40px;
+	font-size:28px;
 }
 
 
@@ -131,7 +134,19 @@ li{    list-style: none;}
 .elsewhere section ul  li a:hover{
 	 color: #2b7bcd;
 }
-
+article h2{
+	font-weight:600;
+}
+article h3{
+font-size:20px;
+font-weight:600;
+}
+.aside{
+	font-size: 12px;
+    line-height: 1.6;
+    color: #666666;
+    margin: 5px 0 1.5em 0;
+}
 /* footer */
 footer {
   color: #000000;

@@ -1,6 +1,6 @@
 +++
 date = "2014-02-22T09:55:29"
-title = "About me"
+title = "About"
 slug = "about"
 
 +++

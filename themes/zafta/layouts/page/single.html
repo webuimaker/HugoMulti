@@ -3,8 +3,9 @@
 
 <div class="container">
 {{ partial "nav.html" . }}
-	<h1>{{ .Title }}</h1>  
+	
   {{ .Content }}
+  {{ partial "elsewhere.html" . }}
 </div>
   
 {{ partial "footer.html" . }}

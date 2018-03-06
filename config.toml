@@ -25,17 +25,17 @@ name = "Home"
 weight = 1
 
 [[Languages.en.menu.main]]
-url = "/about/"
+url = "en/about/"
 name = "About"
 weight = 2
 
 [[Languages.en.menu.main]]
-url = "/journal/"
+url = "en/journal/"
 name = "Journal"
 weight = 3
 
 [[Languages.en.menu.main]]
-url = "/contact/"
+url = "en/contact/"
 name = "Contact"
 weight = 4
 
@@ -55,7 +55,7 @@ name = "Over"
 weight = 2
 
 [[Languages.nl.menu.main]]
-url = "/dagboek/"
+url = "nl/dagboek/"
 name = "Dagboek"
 weight = 3
 
