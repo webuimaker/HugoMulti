@@ -14,7 +14,7 @@ Zolang ik met redactionele teams heb gewerkt, is een inhoudspijplijn een problee
 	<div class="col-md-2 aside">
 		<date>9 februari 2018 </date>		
 		Opgeslagen in: <a href="#">ontwerp</a> <a href="#">hoofdartikel</a>  <a href="#">zapier</a>   <a href="#">automatisering</a> 
-		<p>Reacties zijn gesloten</p>
+		
 	</div>
 	<div class="col-md-10">
 		<p>Toen ik toetrad <a href="www.embl.org">EMBL</a>   een paar maanden geleden was dit een probleem dat we hadden. De contentstatus werd wekelijks gedaan, maar een voortdurend beschikbaar overzicht door het hele team was dat niet. Noch was er een hulpmiddel of proces om verhalen rond te duwen. Zoals ik al zei, mijn ervaring is dat dit niet uniek is voor EMBL. Bijna elke redactie waar ik mee heb gewerkt worstelt hiermee.</p>
@@ -26,5 +26,15 @@ Zolang ik met redactionele teams heb gewerkt, is een inhoudspijplijn een problee
 		
 		<h3>1. Een pre-productie Trello-bord</h3>
 		Zodra een verhaal klaar is om in de workflow te gaan. Dit betekent dat het is afgesproken, gepland, toegewezen aan een prioriteit enz. En vervolgens wordt toegevoegd aan het pre-productie Trello-bord. Dit bord is geordend op verhaaltype: functies, updates, persberichten. Zodra een verhaal compleet is en klaar om te publiceren, wordt het verplaatst naar een kolom 'Verplaatsen naar productie'. <a href="www.Zapier.com">Zapier</a> dan kopieert de kaart, met alles erin, naar het Productschap. Zodra dat is gebeurd, wordt het naar een archieflijst verplaatst.
+		
+		<ol>
+			<li>Find the Pre-production Trello board</li>
+			<li>Find a list on that board called 'Move to Production'</li>
+			<li>Find cards moved into that list (this is the trigger to run the whole zap)</li>
+			<li>Get information about the card and move it to Production. (In fact, here, I didn't move it but copied it. I wanted a safe-guard in the system so that if something went wrong, there would be a backup)</li>
+			<li>Once it's moved, confirm by then moving the card into the archive list.</li>
+			<li>Once all that's done, check the card has actually moved.</li>
+			<li>Then post to Slack and let everyone know.</li>
+		</ol>
 	</div>
 </div>

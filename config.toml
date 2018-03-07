@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "zafta"
-hasCJKLanguage = true
+#hasCJKLanguage = true
 
 
 [permalinks]
@@ -25,17 +25,17 @@ name = "Home"
 weight = 1
 
 [[Languages.en.menu.main]]
-url = "en/about/"
+url = "/en/about/"
 name = "About"
 weight = 2
 
 [[Languages.en.menu.main]]
-url = "en/journal/"
+url = "/journal/"
 name = "Journal"
 weight = 3
 
 [[Languages.en.menu.main]]
-url = "en/contact/"
+url = "/en/contact/"
 name = "Contact"
 weight = 4
 
@@ -50,16 +50,16 @@ name = "Huis"
 weight = 1
 
 [[Languages.nl.menu.main]]
-url = "/over/"
+url = "/nl/over/"
 name = "Over"
 weight = 2
 
 [[Languages.nl.menu.main]]
-url = "nl/dagboek/"
+url = "/nl/dagboek/"
 name = "Dagboek"
 weight = 3
 
 [[Languages.nl.menu.main]]
-url = "/contact/"
+url = "/nl/contact/"
 name = "Contact"
 weight = 4

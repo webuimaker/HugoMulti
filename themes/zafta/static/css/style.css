@@ -24,8 +24,15 @@ a:hover {
     color: #2b7bcd;
     border-color: #2b7bcd;
 }
-ul{margin:0px; padding:0px;}
-li{    list-style: none;}
+
+ol,ul{
+	    margin: 1em 0 1em 0;
+    padding: 0;
+	}
+ul li, ol li {
+    margin-bottom: 0.5rem;
+}
+
 .logo{
 	 font-size: 1.8rem;
 	 background-color: #2b7bcd;
@@ -243,3 +250,19 @@ footer {
 		border-radius:0px;
 		border:0px;
 	}
+	
+/******************************************************************************************
+					MEDIA QUERY LAYOUT STRUCTURE
+				
+@media (max-width: 767px) {XS DEVICE- EXTRA small:  for Mobile and Tablet}				
+@media (min-width: 768px) and (max-width: 991px) {SMALL DEVICE- iPad Protlat and old Desktop view}
+@media (min-width: 992px) and (max-width: 1199px) {MEDIUM DEVICE- iPad Landscap and large Desktop view}
+@media (min-width: 1200px) {LARGE DEVICE- Projector EXTRA large Desktop view}
+				
+/******************************************************************************************/
+
+@media (min-width: 1200px) {
+	.container{
+		width:1060px;
+	}
+}	

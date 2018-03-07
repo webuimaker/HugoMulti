@@ -24,12 +24,50 @@
 {{ end }}
 
 -->
+<!--
+{{ .Site.Language.Lang }}
+
+<translations class="pull-right">
+
+{{$test := .Translations}}
+{{len $test}}
+{{ range .Site.Languages }}
+  <translation class="selected"><a href="">{{ .LanguageName }} {{ .Lang }}  </a>
+{{ end }}
+
+{{ if eq .Lang "nl" }}
+<translation class="selected"><a href="{{ substr .Permalink 0 -1 }}">dansk</a></translation>
+  {{ if .Translations }}
+    {{ range .Translations }}
+      <translation><a href="{{ substr .Permalink 0 -1}}">english</a></translation>
+    {{ end }}
+  {{ else }}
+      <translation class="unavailable"><a href="/en/">english</a></translation>
+  {{ end }}
+{{ end }}
+{{ if eq .Lang "en" }}
+  {{ if .Translations }}
+    {{ range .Translations }}      
+      <translation><a href="{{ substr .Permalink 0 -1 }}">dansk</a></translation>
+    {{ end }}
+  {{ else }}
+      <translation class="unavailable"><a href="/nl/">dansk</a></translation>
+  {{ end }}
+<translation class="selected"><a href="{{ substr .Permalink 0 -1 }}">english</a></translation>
+{{ end }}
+</translations>
+-->
+
 	{{ if .IsTranslated }}
-	<span class="btn-lang">    {{ range .Translations }}
+	<span class="btn-lang">    
+	{{ range .Translations }}
   
-        <a href="{{ .Permalink }}" class="btn btn-default">{{ .Language.LanguageName }}</a>
+        <a href="{{ .Permalink | absLangURL }}" class="btn btn-default">{{ .Language.LanguageName }}</a>
    
     {{ end}}
 </span>
 {{ end }}
+	
+
+
 
