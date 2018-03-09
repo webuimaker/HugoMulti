@@ -25,7 +25,7 @@ name = "Home"
 weight = 1
 
 [[Languages.en.menu.main]]
-url = "/en/about/"
+url = "/about/"
 name = "About"
 weight = 2
 
@@ -35,7 +35,7 @@ name = "Journal"
 weight = 3
 
 [[Languages.en.menu.main]]
-url = "/en/contact/"
+url = "/contact/"
 name = "Contact"
 weight = 4
 
