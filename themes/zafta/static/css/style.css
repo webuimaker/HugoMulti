@@ -46,7 +46,7 @@ ul li, ol li {
 }
 .navTop{
 	margin-top:50px;
-	margin-bottom:8vh;
+	margin-bottom:7vh;
 }
 .lang-dropdown{
 	margin-left:15px;
@@ -255,6 +255,19 @@ footer {
 	}
 	
 	#form-subscribe-box{margin-bottom:14px;}
+	.main-row h1, .main-row h2{
+		margin-left:calc(16.66% + 17px);
+		font-weight:700;
+		margin-bottom:25px;
+	}
+	
+	p + p {
+		text-indent: 2em;
+	}
+	
+	.main-row .aside  p + p {
+		text-indent: 0em;
+	}
 	
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
@@ -268,6 +281,13 @@ footer {
 
 @media (min-width: 1200px) {
 	.container{
-		width:1060px;
+		width:1040px;
 	}
+}	
+
+@media (max-width: 767px) {
+	.main-row h1, .main-row h2{
+		margin-left:0px;
+	}
+
 }	

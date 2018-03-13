@@ -1,0 +1,6 @@
+<div class="col-md-2 aside {{ if .Get "class"}}{{ .Get "class"}}{{ end }}" style="{{ if .Get "style"}}{{ .Get "style"}}{{ end }}">
+	 {{ if or (.Get "date")  }}
+		<date>{{ .Get "date" }} </date><br>
+	{{ end }}
+	{{ .Inner }}
+</div>

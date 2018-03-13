@@ -63,3 +63,34 @@ weight = 3
 url = "/nl/contact/"
 name = "Contact"
 weight = 4
+
+
+[[Languages.en.menu.footer]]
+url = "/colophon/"
+name = "Colophon"
+weight = 1
+
+[[Languages.en.menu.footer]]
+url = "/terms-of-use"
+name = "Terms of Use"
+weight = 2
+
+[[Languages.en.menu.footer]]
+url = "/privacy-policy"
+name = "Privacy Policy"
+weight = 3
+
+[[Languages.nl.menu.footer]]
+url = "/colofon/"
+name = "Colofon"
+weight = 1
+
+[[Languages.nl.menu.footer]]
+url = "/gebruiksvoorwaarden"
+name = "Gebruiksvoorwaarden"
+weight = 2
+
+[[Languages.nl.menu.footer]]
+url = "/privacybeleid"
+name = "Privacybeleid"
+weight = 3

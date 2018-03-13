@@ -1,23 +1,23 @@
 
 <footer class="container">
-	<p>© Copyright © 2018 – 2018 Arjan. <a href="/about/colophon">Colophon</a></p>
-	<!--<nav><ul> {{- $currentPage := . -}}
-				{{ range .Site.Menus.main -}}
-				<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-					<a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-				</li>
-				{{- end }}
-	</ul></nav> -->
 	
-	<nav><ul> 
-				<li>
-					<a href="#">Terms of Use</a>
-				</li>
-				<li>
-					<a href="#">Privacy Policy</a>
-				</li>
-				
-	</ul></nav>
+	<p>© Copyright © 2018 – 2018 Arjan.	
+	{{ range  .Site.Menus.footer.ByWeight }}		
+		{{ if eq  .Weight 1 }} 
+		 <a href="{{ .URL  | absLangURL }}">{{ .Name }} </a> 
+		{{ end }}
+	{{ end }}
+	<nav>
+		<ul>			
+			{{ range .Site.Menus.footer.ByWeight -}}
+				{{ if not (eq  .Weight 1 ) }} 
+					<li>
+						<a href="{{ .URL  | absLangURL }}">{{ .Name }} </a>
+					</li>
+				{{ end }}
+			{{- end }}
+		</ul>
+	</nav>
 </footer>
 
 <script src="/js/custom.js"></script>
