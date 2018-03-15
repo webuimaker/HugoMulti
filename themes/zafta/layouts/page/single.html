@@ -5,7 +5,12 @@
 {{ partial "nav.html" . }}
 	
   {{ .Content }}
+ 
+ {{ if not (or (eq .URL "/privacy-policy/") (eq .URL "/nl/privacybeleid/")  (eq .URL "/terms-of-use/")  (eq .URL "/nl/gebruiksvoorwaarden/")  ) }} 
   {{ partial "subscribe.html" . }}
+  {{end }}
+
+   
 </div>
   
 {{ partial "footer.html" . }}

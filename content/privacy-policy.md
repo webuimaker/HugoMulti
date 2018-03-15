@@ -6,16 +6,9 @@ slug = "privacy-policy"
 +++
 
 
-{{% side-sm-large   %}} 
+{{% side-sm-large  layout="full" class="full" %}} 
 # Privacy Policy
-{{% sidebar date="" %}} I can be found in a few places on the web.
-
-Despite being an angry place recently, I can still be found on [Twitter](Twitter).
-
-[Linkedin](Linkedin), against my better judgement, continues to be the place I document my career moves. But that's pretty much it.
-
- [Medium](Medium) is a syndicated dumping ground for all of the content that lives here. Indieweb and all that.
-{{% /sidebar %}}{{% large-col %}} 
+{{% large-col class="col-md-12" %}} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  quis nostrud exercitation ullamco laboris nisi ut [ aliquip ex ea commodo consequat]( aliquip ex ea commodo consequat). 
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

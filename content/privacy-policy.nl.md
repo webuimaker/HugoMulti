@@ -3,19 +3,13 @@ title = "Privacybeleid"
 description = "Privacybeleid"
 date = "2014-09-27"
 slug = "privacybeleid"
+subscribe = "false"
 +++
 
 
-{{% side-sm-large   %}} 
+{{% side-sm-large layout="full" class="full"  %}} 
 # Privacybeleid
-{{% sidebar date="" %}} Ik ben te vinden op een paar plaatsen op internet.
-
-Ondanks dat ik onlangs een boze plaats heb gevonden, ben ik nog steeds te vinden op [Twitter] (Twitter).
-
-[Linkedin] (Linkedin) is, tegen beter weten in, de plaats waar ik mijn loopbaanbewegingen documenteer. Maar dat is zo ongeveer.
-
- [Medium] (Medium) is een gesyndiceerde dumpplaats voor alle inhoud die hier leeft. Indieweb en zo.
-{{% /sidebar %}}{{% large-col %}} 
+{{% large-col %}} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  quis nostrud exercitation ullamco laboris nisi ut [ aliquip ex ea commodo consequat]( aliquip ex ea commodo consequat). 
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

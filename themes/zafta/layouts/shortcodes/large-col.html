@@ -1,3 +1,5 @@
-<div class="col-md-10  {{ if .Get "class"}}{{ .Get "class"}}{{ end }}" style="{{ if .Get "style"}}{{ .Get "style"}}{{ end }}">	
-		{{ .Inner }}
+<div class="{{ if eq (.Parent.Get "layout") "full"  }} col-md-12 {{ else }} col-md-10 {{end}}   {{ if .Get "class"}}{{ .Get "class"}}{{ end }}" style="{{ if .Get "style"}}{{ .Get "style"}}{{ end }}">	
+		{{ .Inner }} 
+		
+		
 </div>
