@@ -163,6 +163,7 @@ font-weight:600;
     margin: 5px 0 1.5em 0;
 }
 /* footer */
+
 footer {
   color: #000000;
   margin-bottom: 4em; 
@@ -181,6 +182,22 @@ footer {
       display: inline-block;
       margin-right: 0.5em; 
 	}
+	
+.footer-new nav ul {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+	display:flex;	
+}
+    .footer-new nav ul li {
+      list-style: none;
+      flex: 1 auto;
+      margin-right: 0.5em; 
+	}
+	
+
+	
+
     
 .btn-lang{
 	float:right;
@@ -271,8 +288,52 @@ footer {
 	.main-row.full h1, .main-row h2{
 		margin-left:0px;
 	}
+	.client-log{
+		border:1px solid rgba(0, 0, 0, 0.1);
+		padding:10px;
+	}
+	.border-section{
+		margin-top:20px;
+		margin-bottom:20px;
+		padding-top:20px;
+		padding-bottom:20px;
+		border-top:2px solid #2b7bcd;
+		border-bottom:2px solid #2b7bcd;
+	}
+	
+	.footer-new{
+		border-top:2px solid #2b7bcd;
+		margin-top:20px;
+		padding-top:20px;
+	}
+	
+	.newsletter{
+		margin-bottom: 4.5rem;
+		max-width: 35rem;
+		font-size: 1.3em;
+	}
+	.newsletter .btn-primary{
+		border-radius:0px;
+	}
+	.newsletter input.form-control{
+		
+		border-radius:0px;
+		border:2px solid #2b7bcd;
+	}
+	.newsletter 	.sc{
+		font-weight:700;
+	}
 	
 	
+		
+		
+	.newsletter__form{position:relative;width:100%;}
+	@media only screen and (max-width: 719px){
+	.newsletter__form{padding-right:96.4px}
+	}
+	.newsletter__message{border:2px solid;text-align:center;padding:.375rem 10.84px}
+	.newsletter__email{width:100%}
+	.newsletter__submit{position:absolute;top:0;right:0;width:108.4px}
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				

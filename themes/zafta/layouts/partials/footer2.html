@@ -1,0 +1,60 @@
+
+<footer class="container footer-new">
+
+	<div class="newsletter">
+		<p>
+			<span class="sc">NEW</span>  Want actionable tips and advice from us? <br>
+			Then hop on the newsletter.
+		</p>
+		<form action="https://oak.createsend.com/t/r/s/hiiyudd/" method="post" class="newsletter__form js-newsletter">
+				<div class="input-group">
+					<input type="email" class="form-control" placeholder="Enter your email">
+					 <span class="input-group-btn">
+						<button class="btn btn-theme btn-primary" type="submit">Subscribe</button>
+					 </span>
+				</div>
+	
+		
+			
+		</form>
+	</div>
+	<div class="row">
+		<div class="col-md-5">
+			<nav>			
+				<ul>				
+					{{ range .Site.Menus.main -}}
+						<li>
+							<a href="{{ .URL  | absLangURL }}">{{ .Name }} </a>
+						</li>
+					{{- end }}
+				</ul>			
+			</nav>		
+		</div>
+		<div class="col-md-2">
+			© 2018 Monifa.
+		</div>
+		<div class="col-md-5">
+			<nav>
+				<ul>			
+					{{ range .Site.Menus.footer.ByWeight -}}						
+						<li>
+							<a href="{{ .URL  | absLangURL }}">{{ .Name }} </a>
+						</li>						
+					{{- end }}
+				</ul>
+			</nav>		
+		</div>
+	</div>
+<!--	
+	<p>© Copyright © 2018 – 2018 Arjan.	
+	{{ range  .Site.Menus.footer.ByWeight }}		
+		{{ if eq  .Weight 1 }} 
+		 <a href="{{ .URL  | absLangURL }}">{{ .Name }} </a> 
+		{{ end }}
+	{{ end }}
+	-->
+</footer>
+
+<script src="/js/custom.js"></script>
+</body> 
+</html> 
