@@ -1,16 +1,51 @@
 +++
 date = "2014-02-27T14:45:07"
-title = "Want managed growth and more revenues via Internet?"
-subtitle = "You've come to the right place!"
+title = "Wilt u beheerde groei en meer inkomsten via internet?"
+subtitle = "Je bent hier aan het juiste adres!"
 slug = "/over/"
 type= "about"
 +++
 
-![Grand plan de quatre ballons à air chaud survolant des plaines herbeuses](/img/hot-air-balloons.jpg "Montgolfières")
+	
+{{% side-sm-large   %}} 
+{{% sidebar date="" class="col-md-3" %}} waar we over gaan {{% /sidebar %}}
 
-Phasellus amet non tristiqué ïn tùrpus ïn, torétoré m'vehicula alèquam vivamus urna férmentum, at vulputate dicûm a convallis.
-Blandit eget nequé tellus platea cursus aptent torquent anonyma, sodales rûtrum suspendisse à, ad justo d'. Primies nîbh a scéléréo per rûtrum massè litoré aliquét témpor platea grâvida mi per, cursus lectus venesatis congue primiés vivamus variûs cél nisi justo dui, dès séllicitudén nam mlius condimentum vehiculâ 27 718€ leçtus pretium blandît.
+{{% large-col class="col-md-8 col-md-push-1"  %}} 
 
-Litore lorém lorém éléfantid des potenti ullamcorper. Arcu sodales tùrpus habitasse àc étiam ôdiot, etiam imperdiet inceptos. Torquent litora laçus malesuada condimentûm at turpis accumsan curabitur venenatis nec lorem convallis ût, auctor quisquées congue sempér pharetra namé intègèr l'nequé mié proin pharetra neque magna, venesatis voluptà porta quîs donec vestibulum auctor séd classé scelerisque platéa séd, 24 216€ nullam commodo.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Odio per cœeur niçl lobortïs 49 815€ dapibus vivérra laoreet habitassé nostra vitaé tellus interdum, tellus aliquàm velit anté èst ïn aliquàm vel voluptà ultricités énis bibendum du ut, téllus ullamcorper fringilla ac molestié quisque pretium nullam ut fringilla ultricies pellentesque quisque tempus, tacîtié non cœeur massè maecenas. Amet egestas ultricies quisque arcû a dictumst élémentum dïam curabitur, semper c'est-a-dire morbi dïam tristique aliquam vulputate liçlà, duis sapien condimentum pellentesque laçus ïpsum consectetur lacîna class quisque. Sit variûs purus habitasse nunc venesatis vehicula pretium non dolor tacîtié aliquàm ornare ultrices nostré juséo, dapidûs cras justo nam ôdiot nûllam pulvîar vivamùs primis luctus vitae sed habitant est fermentum, volutpat nibh l'éu intègèr lorém "sélecrum" viverra eleifend mié arcû placérat porta curabitur iaculisé quisque. Lobortis a egéstat téllus ullamcorpér condimentûm, aénean j'à portitorsé massè férmentum dui c'est-a-dire.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{% /large-col %}}{{% /side-sm-large %}}
+{{< tesimonials
+  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
+  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
+  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
+  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
+>}}
+{{% side-sm-large class=""   %}} 
+{{% sidebar date="" class="col-md-3" %}} Hoe we helpen om meer inkomsten te krijgen op een beheerde manier {{% /sidebar %}}
+{{% large-col class="col-md-8 col-md-push-1"  %}} 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{% /large-col %}}{{% /side-sm-large %}}
+{{< subscribe title="Alles over Redactor, Grafs en Kube." subTitle="Maandelijks nieuws & amp; updates. Gewoon recht aan het punt." placeholder="Mail" buttonText="abonneren">}}
+
+{{% side-sm-large class=""   %}} 
+{{% sidebar date="" class="col-md-3" %}} Wie we zijn {{% /sidebar %}}
+{{% large-col class="col-md-8 col-md-push-1"  %}} 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{% /large-col %}}{{% /side-sm-large %}}

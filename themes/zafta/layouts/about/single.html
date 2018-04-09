@@ -5,51 +5,19 @@
 {{ partial "nav.html" . }}
 
 	<h1 class="title">{{ .Title  }}</h1>
-	<h3> {{ .Page.Params.subtitle }}</h3>
-	<div class="row">
+	<h3 class="sub-title"> {{ .Page.Params.subtitle }}</h3>
+	<!--<div class="row mt60">
 		<div class="col-md-3">
 		{{  $.Site.Data.about.weareabout.title }}
+		
 		</div>
 		<div class="col-md-8 col-md-push-1">
 		{{  $.Site.Data.about.weareabout.description | markdownify }}
+		{{ $data := index .Site.Data (printf "about.weareabout_%s" .Site.Language.Lang ) }}
 		</div>
-	</div>
-	<div class="row testimonial border-section">
-		<div class="col-md-3">
-			<div class="client-logo">
-				<div class="thumbnail">
-					<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-				</div>			
-				<p>"Short testimonial quote about the great result we achieved while working for this company"</p>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="client-logo">
-				<div class="thumbnail">
-					<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-				</div>			
-				<p>"Short testimonial quote about the great result we achieved while working for this company"</p>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="client-logo">
-				<div class="thumbnail">
-					<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-				</div>			
-				<p>"Short testimonial quote about the great result we achieved while working for this company"</p>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="client-logo">
-				<div class="thumbnail">
-					<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-				</div>			
-				<p>"Short testimonial quote about the great result we achieved while working for this company"</p>
-			</div>
-		</div>
-		
-	</div>
+	</div> -->
 	
+	<!--
 	<div class="row">
 		<div class="col-md-3">
 			{{  $.Site.Data.about.morerevenu.title }}
@@ -72,7 +40,7 @@
 			{{  $.Site.Data.about.whoWeAre.description | markdownify }}
 		</div>
 	</div>
-	
+	-->
 	
   {{ .Content }}
  

@@ -9,7 +9,7 @@ slug = "journal"
 
 As long as I've been working with editorial teams a content pipeline has been a problem. Knowing the state of a story, its context to those around it, and who has done what, when, is vital in managing a content throughput. Generally, this ﬁgures itself out in a busy, noisy, physical environment. But, the more remote a team becomes, the more challenging it is to communicate on the state of stories.
 {{% side-sm-large   %}} 
-{{% sidebar date="February 9th, 2018" %}} Filed in: [design](design)  [editorial](editorial) [zapier](zapier) [automation](automation)
+{{% sidebar date="February 9th, 2018" class="aside" %}} Filed in: [design](design)  [editorial](editorial) [zapier](zapier) [automation](automation)
 	{{% /sidebar %}}{{% large-col %}} When I joined [EMBL](www.embl.org) a couple of months ago, this was a problem we had. Content status was done weekly, but a continually available overview by the entire team was not. Nor was there a tool or process to push stories around. As I said, my experience is this is not unique to EMBL. Almost every editorial team I've worked with struggles with this.	
 
 [Dan](https://twitter.com/thenoyes) and I got our heads together and worked on a process that would fit with the existing team and tools. The team here use Trello extensively for planning, so we started there.

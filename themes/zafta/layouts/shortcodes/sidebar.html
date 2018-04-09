@@ -1,4 +1,7 @@
-<div class="col-md-2 aside {{ if .Get "class"}}{{ .Get "class"}}{{ end }}" style="{{ if .Get "style"}}{{ .Get "style"}}{{ end }}">
+<div class="{{ if eq (.Get "class") "aside"  }}col-md-2 aside{{ else }}{{ .Get "class"}}{{end}} " 
+
+
+style="{{ if .Get "style"}}{{ .Get "style"}}{{ end }}">
 	 {{ if or (.Get "date")  }}
 		<date>{{ .Get "date" }} </date><br>
 	{{ end }}

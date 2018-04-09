@@ -4,15 +4,15 @@
 <div class="form-subscribe col-md-8 col-md-push-2">
     <div id="form-subscribe-success" style="display: none;"></div>
 	<div id="form-subscribe-box">
-			<h4>All about Redactor, Grafs and Kube.</h4>
-			<p>Monthly news &amp; updates. Just straight to the point.</p>
+			<h4> {{ .Get "title" }}</h4>
+			<p>{{ .Get "subTitle" }}</p>
 
 			<form action="" name="mc-embedded-subscribe-form" method="post" class="form"><input type="hidden" name="authorize-token" value="">
 				<div id="subscribe-email-validation-error"></div>
 				<div class="form-item">
 					<div class="append">
-						<input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email">
-						<button class="button btn btn-primary">Subscribe</button>
+						<input type="email" name="EMAIL" id="mce-EMAIL" placeholder="{{ .Get "placeholder" }}">
+						<button class="button btn btn-primary"> {{ .Get "buttonText" }}</button>
 					</div>
 				</div>
 		
