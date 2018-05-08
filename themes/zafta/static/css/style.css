@@ -415,6 +415,18 @@ footer {
 	h3.sub-title{
 		margin-top:10px;
 	}
+	h3.sub-title span{ 
+		font-weight:normal;
+		font-size:18px;
+	}
+	.contact-form  .form-group{
+		margin-top:30px;
+	}
+	.contact-form  .form-group label{ font-weight:normal;}
+	.contact-form  .form-group .form-control{
+		border-radius:0px;
+	}
+	
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				
