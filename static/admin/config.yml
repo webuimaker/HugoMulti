@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: https://github.com/webuimaker/HugoMulti.git
   branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
