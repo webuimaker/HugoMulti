@@ -1,7 +1,7 @@
 backend:
-  name: github
-  repo: https://github.com/webuimaker/HugoMulti.git
+  name: git-gateway
   branch: master
+  name: git-gateway
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/_index.md"
+      - file: "site/content/_index.en.md"
         label: "Home Page"
         name: "home"
         fields:
