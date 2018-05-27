@@ -2,7 +2,7 @@
 title: home
 date: '2014-02-27T14:45:07'
 ---
-# Hello [I’m Mark](/about/). A designer leading digital communications at the [European Molecular Biology Laboratory](http://www.embl.org)
+# Hello [I’m {Surname}](/about/). A designer leading digital communications at the [European Molecular Biology Laboratory](http://www.embl.org)
 
 # Previously, I was [Design Director at Monotype](http://www.monotype.com).  Before that, Mark Boulton Design. Over the past few years, I've worked with \[http://www.vogue.de](Conde Nast),[http://home.cern](CERN), [http://www.espn.com](ESPN), and \[http://www.aljazeera.com](Al Jazeera)
 
