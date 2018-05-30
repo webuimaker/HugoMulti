@@ -56,7 +56,7 @@
 <translation class="selected"><a href="{{ substr .Permalink 0 -1 }}">english</a></translation>
 {{ end }}
 </translations>
--->
+
 
 	{{ if .IsTranslated }}
 	<span class="btn-lang">    
@@ -65,19 +65,18 @@
     {{ end}}
 </span>
 {{ end }}
-
+-->
 
 
 
 {{ if .IsTranslated }}
-<h4>{{ i18n "translations" }}</h4>
-<ul>
+<span class="btn-lang">    
     {{ range .Translations }}
-    <li>
-        <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
-    </li>
+   
+        <a href="{{ .Permalink }}" class="btn btn-default">{{ .Site.Language.LanguageName }}</a>
+   
     {{ end}}
-</ul>
+</span>
 {{ end }}
 	
 
