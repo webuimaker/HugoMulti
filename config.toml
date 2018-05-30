@@ -12,9 +12,6 @@ defaultContentLanguageInSubdir= true
 	about = "/:filename/"
 
 	
-DefaultContentLanguage = "en"
-copyright = "Everything is mine"
-
 [Languages]
 [Languages.en]
 title = "Multilingual Hugo Example"

@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/about.md"
-        label: "about"
+        label: "About"
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
