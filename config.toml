@@ -4,7 +4,6 @@ title = "My New Hugo Site"
 theme = "zafta"
 #hasCJKLanguage = true
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= true
 
 
 [permalinks]
