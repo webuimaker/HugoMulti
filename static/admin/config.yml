@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/_index.nl.md"
         label: "À propos de moi"
-        name: "home"
+        name: "home Nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Date, name: date, widget: string}
