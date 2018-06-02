@@ -1,10 +1,10 @@
-+++
-date = "2014-02-27T14:45:07"
-title = "Wilt u beheerde groei en meer inkomsten via internet?"
-subtitle = "Je bent hier aan het juiste adres!"
-slug = "/over/"
-type= "about"
-+++
+---
+title: Wilt u beheerde groei en meer inkomsten via internet?
+subtitle: Je bent hier aan het juiste adres!
+date: '2014-02-27T14:45:07'
+slug: /over/
+Type: about
+---
 
 	
 {{% side-sm-large   %}} 
@@ -12,7 +12,7 @@ type= "about"
 
 {{% large-col class="col-md-8 col-md-push-1"  %}} 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem text ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
