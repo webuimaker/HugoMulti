@@ -91,6 +91,52 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
+      - file: "content/privacy-policy.md"
+        label: "privacy policy"
+        name: "privacy policy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/privacy-policy.nl.md"
+        label: "privacy policy nl "
+        name: "privacy policy nl"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/terms-of-use.md"
+        label: "terms-of-use "
+        name: "terms-of-use"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/terms-of-use.nl.md"
+        label: "terms-of-use nl"
+        name: "terms-of-use nl"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/thank-you.md"
+        label: "thank-you"
+        name: "thank-you"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: subtitle, name: subtitle, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: type, name: type, widget: string}
+          - {label: Body, name: body, widget: markdown}
       - file: "content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
