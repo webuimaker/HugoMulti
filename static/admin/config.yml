@@ -158,3 +158,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: type, name: type, widget: string}
           - {label: form, name: form, widget: string}
           - {label: Body, name: body, widget: markdown}
+      - file: "content/contact.nl.md"
+        label: "Contact Page NL"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: subtitle, name: subtitle, widget: image}
+          - {label: date, name: date, widget: string}
+          - {label: slug, name: slug, widget: string}
+          - {label: type, name: type, widget: string}
+          - {label: form, name: form, widget: string}
+          - {label: Body, name: body, widget: markdown}
