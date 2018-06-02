@@ -46,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Type, name: Type, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/about.nl.md"
-        label: "About"
+        label: "About NL"
         name: "over"
         fields:
           - {label: Title, name: title, widget: string}
@@ -54,6 +54,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
           - {label: Type, name: Type, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/colophon.md"
+        label: "Colophon"
+        name: "Colophon"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/colophon.nl.md"
+        label: "Colophon NL"
+        name: "Colophon"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: description, name: description, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/contact/_index.md"
         label: "Contact Page"
