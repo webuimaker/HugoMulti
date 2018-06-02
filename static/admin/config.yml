@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/Journal.md"
         label: "Journal"
-        name: "Journal
+        name: "Journal"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
