@@ -369,8 +369,8 @@ footer {
 		margin-bottom:50px;
 		padding-top:50px;
 		padding-bottom:50px;
-		border-top:2px solid #2b7bcd;
-		border-bottom:2px solid #2b7bcd;
+		border-top:2px solid rgba(0, 0, 0, 0.1);
+		border-bottom:2px solid rgba(0, 0, 0, 0.1);
 	}
 	
 	.footer-new{

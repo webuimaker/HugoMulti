@@ -4,6 +4,10 @@ title = "My New Hugo Site"
 theme = "zafta"
 #hasCJKLanguage = true
 defaultContentLanguage = "en"
+author = "ee"
+
+[params.company]
+name = "Monifa"
 
 
 [permalinks]
@@ -18,9 +22,9 @@ weight = 0
 languagename = "English"
 
 [[Languages.en.menu.main]]
-url = "/"
-name = "Home"
-weight = 1
+#url = "/"
+#name = "Home"
+#weight = 1
 
 [[Languages.en.menu.main]]
 url = "/about/"
@@ -43,9 +47,9 @@ weight = 1
 languagename = "Dutch"
 
 [[Languages.nl.menu.main]]
-url = "/"
-name = "Huis"
-weight = 1
+#url = "/"
+#name = "Huis"
+#weight = 1
 
 [[Languages.nl.menu.main]]
 url = "/nl/over/"
