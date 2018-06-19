@@ -104,6 +104,7 @@ ul li, ol li {
 .no-padding-top { padding-top:0 !important; }
 .no-margin-bottom { margin-bottom:0 !important; }
 .no-padding-bottom { padding-bottom:0 !important; }
+.btn-primary{border-radius:0px;}
 
 .logo{
 	 font-size: 1.15em;
@@ -124,11 +125,16 @@ ul li, ol li {
 	margin-left:15px;
 	margin-top:10px;
 }
-.home h1{
+.home h1, h1{
 	font-weight: 600;
     line-height: 1.5em;
     margin-bottom: 40px;
 	font-size:28px;
+}
+h1{margin-bottom:0px;}
+.home h2{
+	
+	font-size:22px;
 }
 .home ul{
 	margin-top:1em;
@@ -275,7 +281,7 @@ footer {
 	float:right;
 	margin-top:8px;	
 }
-.btn-lang a{min-width:71px;}
+.btn-lang a{min-width:71px; border-radius:0px;}
 
 
 /******** subscribe*/
@@ -345,7 +351,7 @@ footer {
 	
 	#form-subscribe-box{margin-bottom:14px;}
 	.main-row h1, .main-row h2{
-		margin-left:calc(16.66% + 17px);
+		/*margin-left:calc(16.66% + 17px);*/
 		font-weight:700;
 		margin-bottom:25px;
 	}
@@ -369,12 +375,12 @@ footer {
 		margin-bottom:50px;
 		padding-top:50px;
 		padding-bottom:50px;
-		border-top:2px solid rgba(0, 0, 0, 0.1);
-		border-bottom:2px solid rgba(0, 0, 0, 0.1);
+		border-top:3px dashed rgba(0, 0, 0, 0.1);
+		/*border-bottom:3px dashed rgba(0, 0, 0, 0.1);	*/
 	}
 	
 	.footer-new{
-		border-top:2px solid #2b7bcd;
+		border-top:3px dashed rgba(0, 0, 0, 0.1);
 		margin-top:20px;
 		padding-top:20px;
 		margin-bottom:1em;
@@ -414,6 +420,7 @@ footer {
 	}
 	h3.sub-title{
 		margin-top:10px;
+		margin-bottom:20px;
 	}
 	h3.sub-title span{ 
 		font-weight:normal;

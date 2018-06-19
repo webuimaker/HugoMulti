@@ -1,11 +1,11 @@
 +++
-title = "Journal"
+title = "Writing"
 description = "about this site"
 date = "2014-09-27"
-slug = "journal"
+slug = "writing"
 +++
 
-## Editorial planning with Trello and Zapier
+# Editorial planning with Trello and Zapier
 
 As long as I've been working with editorial teams a content pipeline has been a problem. Knowing the state of a story, its context to those around it, and who has done what, when, is vital in managing a content throughput. Generally, this ﬁgures itself out in a busy, noisy, physical environment. But, the more remote a team becomes, the more challenging it is to communicate on the state of stories.
 {{% side-sm-large   %}} 

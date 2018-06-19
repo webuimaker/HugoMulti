@@ -28,12 +28,12 @@ languagename = "English"
 
 [[Languages.en.menu.main]]
 url = "/about/"
-name = "About"
+name = "About Us"
 weight = 2
 
 [[Languages.en.menu.main]]
-url = "/journal/"
-name = "Journal"
+url = "/writing/"
+name = "Writing"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -53,12 +53,12 @@ languagename = "Dutch"
 
 [[Languages.nl.menu.main]]
 url = "/nl/over/"
-name = "Over"
+name = "Over ons"
 weight = 2
 
 [[Languages.nl.menu.main]]
-url = "/nl/dagboek/"
-name = "Dagboek"
+url = "/nl/artikelen/"
+name = "Artikelen"
 weight = 3
 
 [[Languages.nl.menu.main]]

@@ -5,6 +5,11 @@ subtitle: "We love to here from you. Please use the form below. "
 slug: "contact"
 type: "contact"
 form: "true"
+name: "Your Name"
+email: "Your Email"
+subject: "Subject"
+message: "Your Message"
+submitText: "Send Message"
 ---
 
 

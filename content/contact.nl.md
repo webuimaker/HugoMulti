@@ -5,6 +5,11 @@ subtitle: "We houden van je hier. Gebruik alstublieft het onderstaande formulier
 slug: "contact"
 type: "contact"
 form: "true"
+name: " Je naam"
+email: "Je email"
+subject: "Onderwerp"
+message: "Je bericht"
+submitText: "Verstuur bericht"
 ---
 
 
