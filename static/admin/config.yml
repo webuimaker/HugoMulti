@@ -165,7 +165,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: submitText, name: submitText, widget: string}
       - file: "content/contact.nl.md"
         label: "Contact Page NL"
-        name: "contact"
+        name: "contact NL"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: subtitle, name: subtitle, widget: image}
