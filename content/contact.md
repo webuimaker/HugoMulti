@@ -10,6 +10,10 @@ email: "Your Email"
 subject: "Subject"
 message: "Your Message"
 submitText: "Send Message"
+placeholderName: " Enter name"
+placeholderEmail: "Enter email"
+placeholderSubject: "Enter Subject"
+placeholderMessage: "Write your message"
 ---
 
 

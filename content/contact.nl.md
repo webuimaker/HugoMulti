@@ -10,6 +10,10 @@ email: "Je email"
 subject: "Onderwerp"
 message: "Je bericht"
 submitText: "Verstuur bericht"
+placeholderName: "Vul je naam in"
+placeholderEmail: "Vul je emailadres in'"
+placeholderSubject: "Vul onderwerp in"
+placeholderMessage: "Schrijf je bericht"
 ---
 
 
