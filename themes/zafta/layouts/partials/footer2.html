@@ -38,11 +38,19 @@
 			<nav>
 				<ul>				
 					{{- $currentPage := . -}}
+						
 					{{ range .Site.Menus.footer.ByWeight -}}
+						
 						<li>
-							<a href="{{ .URL }}">{{ .Name }}  {{ .URL }} </a>
+							<a href="{{ if eq $.Lang "nl" }}/nl{{ .URL }}{{else}}{{ .URL }}{{end}}">{{ .Name }} </a>
 						</li>
+						
+						
+					
 					{{- end }}
+					
+					
+					
 				</ul>	
 			
 			
