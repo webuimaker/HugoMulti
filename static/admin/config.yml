@@ -152,7 +152,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: subtitle, name: subtitle, widget: image}
+          - {label: subtitle, name: subtitle, widget: string}
           - {label: date, name: date, widget: string}
           - {label: slug, name: slug, widget: string}
           - {label: type, name: type, widget: string}
@@ -172,7 +172,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact NL"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: subtitle, name: subtitle, widget: image}
+          - {label: subtitle, name: subtitle, widget: string}
           - {label: date, name: date, widget: string}
           - {label: slug, name: slug, widget: string}
           - {label: type, name: type, widget: string}
