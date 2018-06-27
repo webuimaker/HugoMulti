@@ -40,7 +40,7 @@
 					{{- $currentPage := . -}}
 					{{ range .Site.Menus.footer.ByWeight -}}
 						<li>
-							<a href="{{ .URL  | absLangURL }}">{{ .Name }} </a>
+							<a href="{{ .URL }}">{{ .Name }}  {{ .URL }} </a>
 						</li>
 					{{- end }}
 				</ul>	
