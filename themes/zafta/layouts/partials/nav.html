@@ -14,18 +14,22 @@
 			{{ partial "allLanguages.html" . }}
 			<ul class="nav navbar-nav navbar-right">
 				{{- $currentPage := . -}}
+				 {{ $url1 := $currentPage.URL }}
+				
 				{{ range .Site.Menus.main -}}
-					<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-						<a href="{{ .URL  | absLangURL }}">{{ .Name }} </a>
+					<!--
+					<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} ">
+						<a href="{{ .URL  | absLangURL }}">{{ .Name }}</a>
+					</li>
+					-->
+					<li class="{{ if eq  $url1 .URL  }} active {{ end }} ">
+						<a href="{{ .URL  | absLangURL }}">{{ .Name }}</a>
 					</li>
 				{{- end }}
 			</ul>
-			
-			
-			
+		
         </div>
 	</div>
-
 
 
 
