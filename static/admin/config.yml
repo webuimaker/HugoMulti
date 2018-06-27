@@ -163,6 +163,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: subject, name: subject, widget: string}
           - {label: message, name: message, widget: string}
           - {label: submitText, name: submitText, widget: string}
+          - {label: placeholderName, name: placeholderName, widget: string}
+          - {label: placeholderEmail, name: placeholderEmail, widget: string}
+          - {label: placeholderSubject, name: placeholderSubject, widget: string}
+          - {label: placeholderMessage, name: placeholderMessage, widget: string}
       - file: "content/contact.nl.md"
         label: "Contact Page NL"
         name: "contact NL"
