@@ -6,16 +6,13 @@
 			<span class="sc">NEW</span>  Want actionable tips and advice from us? <br>
 			Then hop on the newsletter.
 		</p>
-		<form action="/thanks/" method="post" class="newsletter__form js-newsletter" data-netlify="true" name="subFname">
+		<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}/thanks/" method="post" class="newsletter__form js-newsletter" data-netlify="true" name="subFname">
 				<div class="input-group">
 					<input type="email" class="form-control" name="subemail" placeholder="Enter your email">
 					 <span class="input-group-btn">
-						<button class="btn btn-theme btn-primary" type="submit">Subscribe</button>
+						<button class="btn btn-theme btn-primary" type="submit">  {{ if eq $.Lang "nl" }}Meld je aan{{else}}Subscribe{{end}}</button>
 					 </span>
 				</div>
-	
-		
-			
 		</form>
 	</div>
 	<div class="row">
