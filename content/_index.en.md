@@ -8,4 +8,4 @@ date: '2014-02-27T14:45:07'
 
 ## [I write a blog](/journal) You can read the latest post, [Editorial planning with Trello and Zapier](/journal/editorial-planning-with-trello-and-zapier)
 ## I’m [currently reading](/reading) [Flourish – Data Visualisation &amp; Storytelling](https://flourish.studio/)
-## [I speak at conferences](/speaking) I’d be delighted to test for text  [speak at yours](/contact)
+## [I speak at conferences](/speaking) I’d be delighted to [speak at yours](/contact)
