@@ -19,12 +19,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {{% /large-col %}}{{% /side-sm-large %}}
-{{< tesimonials
+{{< tesimonials "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
   "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
   "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
-  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
-  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage"
->}}
+  "Korte testimonial citaat over het geweldige resultaat dat we behaalden tijdens het werken voor dit bedrijf|http://placehold.it/360x240|AltImage" >}}
 {{% side-sm-large class=""   %}} 
 {{% sidebar date="" class="col-md-3" %}} Hoe we helpen om meer inkomsten te krijgen op een beheerde manier {{% /sidebar %}}
 {{% large-col class="col-md-8 col-md-push-1"  %}} 
