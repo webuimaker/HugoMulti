@@ -1,6 +1,6 @@
 {
   "subscription_title": "All about Redactor, Grafs and Kube.",
-  "sub_title": "Monthly news &amp; updates. Just straight to the point.",
-  "placeholder_text": "Email",
-  "button_text": "  Subscribe"
+  "sub_title": "Monthly news & updates. Just straight to the point.",
+  "placeholder": "Enter Email",
+  "button_text": "Subscribe"
 }
