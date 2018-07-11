@@ -27,14 +27,18 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - name: "general"
-        label: "Page News Subscription"
+        label: "Site Settings"
         file: "data/settings.json"
         description: "General Site Settings"
         fields:
-          - {label: "Title", name: "subscription_title", widget: "string"}
-          - {label: "Sub Title", name: "sub_title", widget: "string"}
-          - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
-          - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "English Page News Subscription"
+            name: English Page News Subscription
+            widget: "object"
+            fields:
+              - {label: "Title", name: "subscription_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
   - name: "pages"
     label: "Pages"
     create: true # Allow users to create new documents in this collection
