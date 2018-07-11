@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
         description: "General Site Settings"
         fields:
           - label: "English Page News Subscription"
-            name: English Page News Subscription
+            name: En_Page_Subscription
             widget: "object"
             fields:
               - {label: "Title", name: "subscription_title", widget: "string"}
