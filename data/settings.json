@@ -1,5 +1,8 @@
 {
-  "subscription_title": "Title of News Subs",
-  "sub_title": "Here is sub title",
-  "enable": true
+  "subscription_title": "I am updated from CMs",
+  "sub_title": "Here is sub title me tooo from CMS",
+  "posts": {
+    "front_limit": "5",
+    "author": "vivek"
+  }
 }
