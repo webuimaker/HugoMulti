@@ -3,16 +3,16 @@
 	<div class="form-subscribe col-md-8 col-md-push-2">
 		<div id="form-subscribe-success" style="display: none;"></div>
 		<div id="form-subscribe-box">
-				<h4>All about Redactor, Grafs and Kube. {{  .Site.Data.settings.subscription_title }} </h4>
-				<p>Monthly news &amp; updates. Just straight to the point. {{  .Site.Data.settings.sub_title }} </p>
+				<h4> {{  .Site.Data.settings.subscription_title }} </h4>
+				<p> {{  .Site.Data.settings.sub_title }} </p>
 
 				<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}"  name="homeSubscribeForm" method="post" class="form" data-netlify="true">
 					<input type="hidden" name="authorize-token" value="">
 					<div id="subscribe-email-validation-error"></div>
 					<div class="form-item">
 						<div class="append">
-							<input type="email" name="EMAILHomeSub" id="mce-EMAIL" placeholder="Email">
-							<button class="button btn btn-primary" type="submit">Subscribe</button>
+							<input type="email" name="EMAILHomeSub" id="mce-EMAIL" placeholder="{{  .Site.Data.settings.placeholder }}">
+							<button class="button btn btn-primary" type="submit">{{  .Site.Data.settings.button_text }}</button>
 						</div>
 					</div>
 			
