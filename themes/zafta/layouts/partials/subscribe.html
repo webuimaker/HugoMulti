@@ -1,30 +1,29 @@
 <div class="row  border-section" >
 <div class="col-md-12">
+	<div class="form-subscribe col-md-8 col-md-push-2">
+		<div id="form-subscribe-success" style="display: none;"></div>
+		<div id="form-subscribe-box">
+				<h4>All about Redactor, Grafs and Kube. {{ .Title }} {{ $.Param "subs.url" }} </h4>
+				<p>Monthly news &amp; updates. Just straight to the point.</p>
 
-<div class="form-subscribe col-md-8 col-md-push-2">
-    <div id="form-subscribe-success" style="display: none;"></div>
-	<div id="form-subscribe-box">
-			<h4>All about Redactor, Grafs and Kube.</h4>
-			<p>Monthly news &amp; updates. Just straight to the point.</p>
-
-			<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}"  name="homeSubscribeForm" method="post" class="form" data-netlify="true">
-				<input type="hidden" name="authorize-token" value="">
-				<div id="subscribe-email-validation-error"></div>
-				<div class="form-item">
-					<div class="append">
-						<input type="email" name="EMAILHomeSub" id="mce-EMAIL" placeholder="Email">
-						<button class="button btn btn-primary" type="submit">Subscribe</button>
+				<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}"  name="homeSubscribeForm" method="post" class="form" data-netlify="true">
+					<input type="hidden" name="authorize-token" value="">
+					<div id="subscribe-email-validation-error"></div>
+					<div class="form-item">
+						<div class="append">
+							<input type="email" name="EMAILHomeSub" id="mce-EMAIL" placeholder="Email">
+							<button class="button btn btn-primary" type="submit">Subscribe</button>
+						</div>
 					</div>
-				</div>
-		
-				
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1" value=""></div>
-			</form>
-<!--
-			<div class="form-subscribe-twitter"><div>or</div> <a href="http://twitter.com/jebli_7">Follow us on Twitter</a></div>
 			
-			-->
+					
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1" value=""></div>
+				</form>
+	<!--
+				<div class="form-subscribe-twitter"><div>or</div> <a href="http://twitter.com/jebli_7">Follow us on Twitter</a></div>
+				
+				-->
 		</div>
-</div>
+	</div>
 </div>
 </div>
