@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
         description: "General Site Settings"
         fields:
           - {label: "Title", name: "subscription_title", widget: "string"}
-          - {label: "Sub  Title", name: "subscription_title", widget: "string"}		  
+          - {label: "Sub  Title", name: "sub_title", widget: "string"}		  
           - label: "Post Settings"
             name: posts
             widget: "object"
