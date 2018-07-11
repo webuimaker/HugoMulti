@@ -28,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - name: "general"
         label: "News Subscription"
-        file: "_data/settings.json"
+        file: "data/settings.json"
         description: "General Site Settings"
         fields:
           - {label: "Title", name: "subscription_title", widget: "string"}
