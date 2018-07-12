@@ -183,8 +183,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/terms-of-use.md"
-        label: "terms-of-use "
-        name: "terms-of-use"
+        label: "Terms of Use "
+        name: "terms_of_use"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -192,8 +192,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/terms-of-use.nl.md"
-        label: "terms-of-use nl"
-        name: "terms-of-use_nl"
+        label: "Terms of use Dutch"
+        name: "terms_of_use_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
