@@ -1,5 +1,5 @@
 ---
-title: À propos de moi
+title: 'Monifa: Digitale marketing machines op maat'
 date: '2014-02-27T14:45:07'
 slug: Huis
 ---
