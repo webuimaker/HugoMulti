@@ -12,7 +12,7 @@ Here's how
 **Step1:** Check  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 Response Required:  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-![response-required image](/images/response-required.png title)
+![response-required image](/images/uploads/response-required.png)
 
 _Gmail User: incididunt ut labore et dolore magna_
 
