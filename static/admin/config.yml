@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/about.nl.md"
         label: "About NL"
-        name: "over"
+        name: "about_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: subtitle, name: subtitle, widget: string}
@@ -106,7 +106,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/colophon.md"
         label: "Colophon"
-        name: "Colophon"
+        name: "colophon"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -115,7 +115,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/colophon.nl.md"
         label: "Colophon NL"
-        name: "Colophon NL"
+        name: "colophon_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -124,7 +124,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/Journal.nl.md"
         label: "Journal nl"
-        name: "Journal Nl"
+        name: "journal_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -133,7 +133,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/Journal.md"
         label: "Journal"
-        name: "Journal"
+        name: "journal"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -142,7 +142,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/privacy-policy.md"
         label: "privacy policy"
-        name: "privacy policy"
+        name: "privacy_policy"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -151,7 +151,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/privacy-policy.nl.md"
         label: "privacy policy nl "
-        name: "privacy policy nl"
+        name: "privacy_policy_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -169,7 +169,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/terms-of-use.nl.md"
         label: "terms-of-use nl"
-        name: "terms-of-use nl"
+        name: "terms-of-use_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: description, name: description, widget: string}
@@ -188,7 +188,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
       - file: "content/thank-you.nl.md"
         label: "thank-you"
-        name: "thank-you"
+        name: "thank-you_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: subtitle, name: subtitle, widget: string}
@@ -218,7 +218,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: placeholderMessage, name: placeholderMessage, widget: string}
       - file: "content/contact.nl.md"
         label: "Contact Page NL"
-        name: "contact NL"
+        name: "contact_nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: subtitle, name: subtitle, widget: string}
