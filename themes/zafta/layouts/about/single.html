@@ -42,12 +42,11 @@
 	</div>
 	-->
 	{{ partial "side-sm-lr" (dict "heading" .Params.we_about.heading_left  "text" .Params.we_about.text_right) }}	
-	{{ .Content }}
+	{{ partial "tesimonials" .Params }}	
 	{{ partial "side-sm-lr" (dict "heading" .Params.get_help.heading_left  "text" .Params.get_help.text_right) }}
+	{{ partial "subscribe" . }}	
 	{{ partial "side-sm-lr" (dict "heading" .Params.who_are.heading_left  "text" .Params.who_are.text_right) }}
- 
-
-   
+	{{ .Content }}
 </div>
   
 {{ partial "footer2.html" . }}
