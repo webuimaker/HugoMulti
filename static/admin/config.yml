@@ -260,3 +260,27 @@ collections: # A list of collections the CMS should be able to edit
               {label: Placeholder Email, name: placeholder_email, widget: string},
               {label: Placeholder Subject, name: placeholder_subject, widget: string},
               {label: Placeholder Message, name: placeholder_message, widget: string}]}
+      - file: "content/final-step.md"
+        label: "Final Step"
+        name: "final_step"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: subtitle, name: subtitle, widget: string}
+          - {label: Subtitle Light, name: subtitleLight, widget: string}
+          - {label: date, name: date, widget: string}
+          - {label: slug, name: slug, widget: string}
+          - {label: type, name: type, widget: string}
+          - {label: form, name: form, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "content/final-step.nl.md"
+        label: "Final Step Dutch"
+        name: "final_step_nl"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: subtitle, name: subtitle, widget: string}
+          - {label: Subtitle Light, name: subtitleLight, widget: string}
+          - {label: date, name: date, widget: string}
+          - {label: slug, name: slug, widget: string}
+          - {label: type, name: type, widget: string}
+          - {label: form, name: form, widget: string}
+          - {label: Body, name: body, widget: markdown}
