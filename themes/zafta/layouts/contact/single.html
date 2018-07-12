@@ -5,21 +5,21 @@
 {{ partial "nav.html" . }}
 
 	<h1 class="title">{{ .Title  }}</h1>
-	<h3 class="sub-title"> {{ .Page.Params.subtitle }} <span>{{ .Page.Params.subtitleLight }}</span> </h3>
+	<h3 class="sub-title"> {{ .Params.subtitle }} <span>{{ .Params.subtitleLight }}</span> </h3>
 	<div class="row" style="margin-top:50px;">
 		<div class="col-md-8  col-md-push-2">			
-				{{ if eq .Page.Params.form "true" }} 
+				{{ if eq .Params.form "true" }} 
 					<form class="contact-form" name="contact" method="POST" action="/thanks/" netlify>
 						<div class="form-group">
 							<div class="col-md-6">
-								<label>{{ .Page.Params.name }}*:</label>
-								<input type="text" name="name" class="form-control" placeholder="{{ .Page.Params.placeholderName }}">
+								<label>{{ .Params.contact_form.name }} -- {{  .Params.contact_form.email_text }}</label>
+								<input type="text" name="name" class="form-control" placeholder="{{ .Page.Params.contact_form.placeholderName }}">
 							
 							</div>
 							
 							<div class="col-md-6">
-								<label>{{ .Page.Params.email }}*:</label>
-								<input type="text" name="email" class="form-control"  placeholder="{{ .Page.Params.placeholderEmail }}">							
+								<label>{{ .Page.Params.contact_form.email }}</label>
+								<input type="text" name="email" class="form-control"  placeholder="{{ .Page.Params.contact_form.placeholderEmail }}">							
 							</div>
 							<div class="clearfix"></div>
 						
@@ -27,15 +27,15 @@
 						
 						<div class="form-group">
 							<div class="col-md-12">
-								<label>{{ .Page.Params.subject }}:</label>
-								<input type="text" name="email" class="form-control"  placeholder="{{ .Page.Params.placeholderSubject }}">							
+								<label>{{ .Page.Params.contact_form.subject }}</label>
+								<input type="text" name="email" class="form-control"  placeholder="{{ .Page.Params.contact_form.placeholderSubject }}">							
 							</div>
 							<div class="clearfix"></div>
 						</div>
 						<div class="form-group">
 							<div class="col-md-12">
-								<label>{{ .Page.Params.message }}:</label>
-								<textarea name="message" class="form-control"  placeholder="{{ .Page.Params.placeholderMessage }}" rows="6"></textarea>
+								<label>{{ .Page.Params.contact_form.message }}</label>
+								<textarea name="message" class="form-control"  placeholder="{{ .Page.Params.contact_form.placeholderMessage }}" rows="6"></textarea>
 								
 							</div>
 							<div class="clearfix"></div>
@@ -50,7 +50,7 @@
 						
 						<div class="form-group">
 							<div class="col-md-12 text-right">
-								<button type=”submit” class="btn btn-primary"> {{ .Page.Params.submitText }} </button>				
+								<button type=”submit” class="btn btn-primary"> {{ .Page.Params.contact_form.submitText }} </button>				
 							</div>
 							<div class="clearfix"></div>
 						</div>
