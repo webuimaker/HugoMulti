@@ -95,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Type, name: Type, widget: string}
           - {label: "What we about", name: we_about, widget: object, fields: [
               {label: "Heading Left", name: "heading_left", widget: string},
-              {label: "Text", name: "text_right", widget: "text"}]}
+              {label: "Text", name: "text_right", widget: "markdown"}]}
           - {label: Body, name: body, widget: markdown}
       - file: "content/about.nl.md"
         label: "About NL"
