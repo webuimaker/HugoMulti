@@ -3,6 +3,6 @@
 		<h3>{{.heading_left}}</h3>
 	</div>
 	<div class="col-md-8 col-md-push-1">
-		{{.text_right}}
+		{{ with .text_right }}{{ . | markdownify }}{{ end }}
 	</div>
 </div>
