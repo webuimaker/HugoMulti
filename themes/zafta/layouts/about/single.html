@@ -41,8 +41,8 @@
 		</div>
 	</div>
 	-->
+	{{ partial "side-sm-lr" (dict "heading" .Params.we_about.heading_left  "text" .Params.we_about.text_right) }}
 	
-	{{ partial "side-sm-lr" .Params.we_about}}
 	
 	
   {{ .Content }}

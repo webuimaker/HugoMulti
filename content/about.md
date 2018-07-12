@@ -5,7 +5,7 @@ date: '2014-02-27T14:45:07'
 slug: /about/
 Type: about
 we_about:
-  heading_left: what we are about
+  heading_left: what we are about 
   text_right: >-
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -14,7 +14,6 @@ we_about:
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
     non proident, sunt in culpa qui officia deserunt mollit anim id est
     laborum.</p>
-
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

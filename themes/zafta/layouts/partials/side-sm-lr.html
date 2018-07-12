@@ -1,8 +1,8 @@
 <div class="row main-row"> 
 	<div class="col-md-3 " style="">     
-		<h3>{{.heading_left}}</h3>
+		<h3>{{.heading}}</h3>
 	</div>
 	<div class="col-md-8 col-md-push-1">
-		{{ with .text_right }}{{ . | markdownify }}{{ end }}
+		{{ with .text }}{{ . | markdownify }}{{ end }}
 	</div>
 </div>
