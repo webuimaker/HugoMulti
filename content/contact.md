@@ -6,7 +6,7 @@ slug: contact
 type: contact
 form: 'true'
 contact_form:
-  email_label: 'Your Email*::'
+  email_label: 'Your Email*:'
   message_label: 'Your Message:'
   name_label: 'Your Name*:'
   placeholder_email: Enter Email
