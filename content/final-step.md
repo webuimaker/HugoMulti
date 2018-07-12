@@ -18,7 +18,7 @@ _Gmail User: incididunt ut labore et dolore magna_
 
 **Step2:** Confirm;  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-![response-required image](/images/confirm.png title)
+![response-required image](/images/uploads/confirm.png)
 
 And you'll get  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
