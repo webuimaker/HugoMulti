@@ -10,5 +10,15 @@
     "sub_title": "Dutch SubTitle Here : ",
     "placeholder_text": "Dutch Email Placeholder Here : ",
     "button_text": "Meld je aan"
+  },
+  "En_footer_Subscription": {
+    "highlight_title": "New",
+    "main_title": "Want actionable tips and advice from us? ",
+    "sub_title": "Then hop on the newsletter.",
+    "placeholder_text": "Enter Your Email",
+    "button_text": "Subscribe"
+  },
+  "Nl_footer_Subscription": {
+    "button_text": "Meld je aan"
   }
 }
