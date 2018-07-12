@@ -12,13 +12,13 @@ Here's how
 **Step1:** Check  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 Response Required:  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-![response-required image](/images/response-required.png title)
+![response-required image](/images/uploads/response-required.png)
 
 _Gmail User: incididunt ut labore et dolore magna_
 
 **Step2:** Confirm;  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-![response-required image](/images/uploads/confirm.png)
+![response-required image](/images/confirm.png title)
 
 And you'll get  Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
