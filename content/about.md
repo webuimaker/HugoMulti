@@ -6,7 +6,7 @@ slug: /about/
 Type: about
 we_about:
   heading_left: what we are about
-  text_right: >
+  text_right: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
