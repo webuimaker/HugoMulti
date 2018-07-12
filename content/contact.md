@@ -4,18 +4,16 @@ subtitle: 'We love to here from you. Please use the form below. '
 date: '2014-02-27T14:45:07'
 slug: contact
 type: contact
+contact_form:
+  email: 'Your Email*:'
+  message: 'Your Message:'
+  name: 'Your Name*:'
+  placeholderEmail: Enter Email
+  placeholderMessage: Write Your Message
+  placeholderName: Enter Name
+  placeholderSubject: 'Enter Subject '
+  subject: 'Subject:'
+  submitText: ' Send Message '
 form: 'true'
-name: Your Name
-email: Your Email
-subject: Subject
-message: Your Message
-submitText: Send Message
-placeholderName: ' Enter name'
-placeholderEmail: Enter email
-placeholderSubject: Enter Subject
-placeholderMessage: Write your message
 ---
-
-
-
 
