@@ -250,13 +250,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: slug, name: slug, widget: string}
           - {label: type, name: type, widget: string}
           - {label: form, name: form, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - {label: name, name: name, widget: string}
-          - {label: email, name: email, widget: string}
-          - {label: subject, name: subject, widget: string}
-          - {label: message, name: message, widget: string}
-          - {label: submitText, name: submitText, widget: string}
-          - {label: placeholderName, name: placeholderName, widget: string}
-          - {label: placeholderEmail, name: placeholderEmail, widget: string}
-          - {label: placeholderSubject, name: placeholderSubject, widget: string}
-          - {label: placeholderMessage, name: placeholderMessage, widget: string}
+          - {label: "Contact Form", name: contact_form, widget: object, fields: [
+              {label: Name, name: name_label, widget: string},
+              {label: Email, name: email_label, widget: string},
+              {label: Subject, name: subject_label, widget: string},
+              {label: Message, name: message_label, widget: string},
+              {label: Submit Text, name: submit_text, widget: string},
+              {label: Placeholder Name, name: placeholder_name, widget: string},
+              {label: Placeholder Email, name: placeholder_email, widget: string},
+              {label: Placeholder Subject, name: placeholder_subject, widget: string},
+              {label: Placeholder Message, name: placeholder_message, widget: string}]}
