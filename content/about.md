@@ -53,13 +53,22 @@ who_are:
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
     in culpa qui officia deserunt mollit anim id est laborum.</p>
 testimonials:
-    - image: http://placehold.it/360x240
-      text: "Short testimonial quote about the great result we achieved while working for this company"
-    - image: http://placehold.it/360x240
-      text: "Short testimonial quote about the great result we achieved while working for this company"
-    - image: http://placehold.it/360x240
-      text: "Short testimonial quote about the great result we achieved while working for this company"
-    - image: http://placehold.it/360x240
-      text: "Short testimonial quote about the great result we achieved while working for this company"
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
 ---
 
+Body text here this is not required as per Design
