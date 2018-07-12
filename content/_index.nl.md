@@ -3,7 +3,7 @@ title: 'Monifa: Digitale marketing machines op maat'
 date: '2014-02-27T14:45:07'
 slug: Huis
 ---
-# Hallo, wij zijn [Monifa](/about/). Wij stellen digitale marketing machines op maat samen voor jouw organisatie.
+# Hallo, wij zijn [Monifa](/about/). Wij stellen digitale marketing machines op maat samen voor jouw organisatie zodat jullie makkelijk zeer effectieve campagnes kunnen draaien.
 
 # Eerder was ik dat [Design Director bij Monotype](http://www.monotype.com).  Daarvoor Mark Boulton Design. In de afgelopen paar jaar heb ik met gewerkt [Conde Nast](http://www.vogue.de),[http://home.cern](CERN), [http://www.espn.com](ESPN), and [Al Jazeera](http://www.aljazeera.com)
 
