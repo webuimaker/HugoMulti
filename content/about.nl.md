@@ -59,7 +59,20 @@ who_are:
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
     est laborum.</p>
 testimonials:
-  - text: >-
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
+      Short testimonial quote about the great result we achieved while working
+      for this company
+  - image: 'http://placehold.it/360x240'
+    text: >-
       Short testimonial quote about the great result we achieved while working
       for this company
 ---
