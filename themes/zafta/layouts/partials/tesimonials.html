@@ -1,0 +1,13 @@
+<div class="row testimonial border-section">
+   {{ range .testimonials }}
+		<div class="col-md-3">
+			<div class="client-logo">
+				<div class="thumbnail">
+					<img src="{{.image}}" alt="{{.image}}">
+				</div>			
+				<p>"{{.text}}"</p>
+			</div>
+		</div>
+      {{ end }}
+
+</div>
