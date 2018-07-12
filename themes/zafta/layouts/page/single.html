@@ -3,12 +3,16 @@
 
 <div class="container">
 {{ partial "nav.html" . }}
-	
-  {{ .Content }}
+	<div class="row main-row"> 
+		<div class="col-md-12 " style="">     
+			{{ .Content }}
+		</div>
+	</div>
+  
  
  {{ if not (or (eq .URL "/privacy-policy/") (eq .URL "/nl/privacybeleid/")  (eq .URL "/terms-of-use/")  (eq .URL "/nl/gebruiksvoorwaarden/")  ) }} 
-  {{ partial "subscribe.html" . }}
-  {{end }}
+	{{ partial "subscribe.html" . }}
+ {{end }}
 
    
 </div>
