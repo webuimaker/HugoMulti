@@ -1,8 +1,7 @@
 <footer class="container footer-new">
 	<div class="newsletter">
 		<p>
-			<span class="sc">{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.highlight_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.highlight_title }} {{end}}</span>{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.main_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.main_title }} {{end}}  Want actionable tips and advice from us? <br>
-			Then hop on the newsletter.
+			<span class="sc">{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.highlight_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.highlight_title }} {{end}}</span>{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.main_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.main_title }} {{end}} <br>{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.sub_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.sub_title }} {{end}} 
 		</p>
 		<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}" method="post" class="newsletter__form js-newsletter" data-netlify="true" name="subFname">
 				<div class="input-group">
