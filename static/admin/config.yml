@@ -47,6 +47,24 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Sub Title", name: "sub_title", widget: "string"}
               - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
               - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "English Footer News Subscription"
+            name: En_footer_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title Hightlight text", name: "highlight_title", widget: "string"}
+              - {label: "Main Title", name: "main_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "Dutch Footer News Subscription"
+            name: Nl_footer_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title Hightlight text", name: "highlight_title", widget: "string"}
+              - {label: "Main Title", name: "main_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
   - name: "pages"
     label: "Pages"
     create: true # Allow users to create new documents in this collection

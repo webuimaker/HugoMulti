@@ -1,14 +1,14 @@
 <footer class="container footer-new">
 	<div class="newsletter">
 		<p>
-			<span class="sc">NEW</span>  Want actionable tips and advice from us? <br>
+			<span class="sc">{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.highlight_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.highlight_title }} {{end}}</span>{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.main_title }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.main_title }} {{end}}  Want actionable tips and advice from us? <br>
 			Then hop on the newsletter.
 		</p>
 		<form action="{{ if eq $.Lang "nl" }}/nl/thanks/{{else}}/thanks/{{end}}" method="post" class="newsletter__form js-newsletter" data-netlify="true" name="subFname">
 				<div class="input-group">
-					<input type="email" class="form-control" name="subemail" placeholder="Enter your email">
+					<input type="email" class="form-control" name="subemail" placeholder="{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.placeholder_text }} {{else}}{{  .Site.Data.settings.En_footer_Subscription.placeholder_text }} {{end}}">
 					 <span class="input-group-btn">
-						<button class="btn btn-theme btn-primary" type="submit">  {{ if eq $.Lang "nl" }}Meld je aan{{else}}Subscribe{{end}}</button>
+						<button class="btn btn-theme btn-primary" type="submit">{{ if eq $.Lang "nl" }} {{  .Site.Data.settings.Nl_footer_Subscription.button_text }}  {{else}}{{  .Site.Data.settings.En_footer_Subscription.button_text }}  {{end}} </button>
 					 </span>
 				</div>
 		</form>
