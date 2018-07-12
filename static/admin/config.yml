@@ -77,8 +77,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Date, name: date, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "content/_index.nl.md"
-        label: "À propos de moi"
-        name: "home Nl"
+        label: "Home Dutch"
+        name: "home_Nl"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Date, name: date, widget: string}
