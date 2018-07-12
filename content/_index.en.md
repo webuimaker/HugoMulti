@@ -2,12 +2,12 @@
 title: home
 date: '2014-02-27T14:45:07'
 ---
-# Hello [I’m Monifa](/about/). A  designer leading digital communications at the [European Molecular Biology Laboratory](http://www.embl.org)
+# Hello we are [Monifa](/about/). An agency that develops custom digital marketing systems and processes for every type of organization.
 
 # Previously, I was [Design Director at Monotype](http://www.monotype.com).  Before that, Mark Boulton Design. Over the past few years, I've worked with \[http://www.vogue.de](Conde Nast),[http://home.cern](CERN), [http://www.espn.com](ESPN), and \[http://www.aljazeera.com](Al Jazeera)
 
-## [I write a blog](/journal) You can read the latest post, [Editorial planning with Trello and Zapier](/journal/editorial-planning-with-trello-and-zapier)
+## [We write a blog](/journal) You can read the latest post, [Editorial planning with Trello and Zapier](/journal/editorial-planning-with-trello-and-zapier)
 
 ## I’m [currently reading](/reading) [Flourish – Data Visualisation &amp; Storytelling](https://flourish.studio/)
 
-## [I speak at conferences](/speaking) I’d be delighted to [speak at yours](/contact)
+## [We speak at conferences](/speaking). We’d be delighted to [speak at your event](/contact)
