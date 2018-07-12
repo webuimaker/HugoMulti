@@ -1,7 +1,7 @@
 ---
 title: 'Monifa: Digitale marketing machines op maat'
 date: '2014-02-27T14:45:07'
-slug: Huis
+slug: Home
 ---
 # Hallo, wij zijn [Monifa](/about/). Wij stellen voor jouw organisatie op maat digitale marketing machines samen zodat jullie makkelijk zeer effectieve campagnes kunnen draaien.
 
