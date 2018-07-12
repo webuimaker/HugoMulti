@@ -21,7 +21,7 @@ we_about:
     occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
     vivek here</p>
 get_help:
-  heading_left: How we help get more revenue in a managed way heading
+  heading_left: How we help get more revenue in a managed way
   text_right: >-
     <p>Vivek text here Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -37,7 +37,7 @@ get_help:
     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
     officia deserunt mollit anim id est laborum.</p>
 who_are:
-  heading_left: Who we are heading
+  heading_left: Who we are
   text_right: >-
     <p>Awesome improvement  : Lorem ipsum dolor sit amet, consectetur adipiscing
     elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
