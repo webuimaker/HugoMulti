@@ -229,6 +229,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: date, name: date, widget: string}
           - {label: slug, name: slug, widget: string}
           - {label: type, name: type, widget: string}
+          - {label: form, name: form, widget: string}
           - {label: "Contact Form", name: contact_form, widget: object, fields: [
               {label: name, name: name, widget: string},
               {label: email, name: email, widget: string},
@@ -239,7 +240,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: placeholderEmail, name: placeholderEmail, widget: string},
               {label: placeholderSubject, name: placeholderSubject, widget: string},
               {label: placeholderMessage, name: placeholderMessage, widget: string}]}
-          - {label: form, name: form, widget: string}
       - file: "content/contact.nl.md"
         label: "Contact Page NL"
         name: "contact_nl"
