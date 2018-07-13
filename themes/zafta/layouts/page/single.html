@@ -4,14 +4,34 @@
 <div class="container">
 {{ partial "nav.html" . }}
 	<div class="row main-row"> 
-		<div class="col-md-12 " style="">     
-			<h1>{{ .Title }}</h1>
+		<div class="col-md-12">     
+			<h1>{{ .Title }}  {{ .Params.sidebar}}</h1>
 			{{ if .Params.subTitle   }}<p>{{ .Params.subTitle }}</p> {{end}}
+			
+			{{if eq .Params.sidebar true }}				
+				<div class="col-md-2 aside ">					
+						<date>{{.Params.sidebar_date}} </date><br>
+					<ul>
+						{{ range .Params.sidebar_Content  }}
+							<li><a href="{{.filled_url}}">{{.filled_text}} </a></li>
+						{{end}}
+					</ul>					
+				</div>	
+				<div class=" col-md-10"> 
+					{{ .Content }}
+				</div>
+				
+				{{ else }}
+				
+				{{ .Content }}
+				
+			{{ end}}
+		
 			
 		
 			
 			
-			{{ .Content }}
+			
 		</div>
 	</div>
   

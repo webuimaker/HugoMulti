@@ -15,10 +15,7 @@ sidebar: true
 
 
 
-{{% side-sm-large   %}} 
-{{% sidebar date="February 9th, 2018" class="aside" %}} Filed in: [design](design)  [editorial](editorial) [zapier](zapier) [automation](automation)
-	{{% /sidebar %}}
-	{{% large-col %}} When I joined [EMBL](www.embl.org) a couple of months ago, this was a problem we had. Content status was done weekly, but a continually available overview by the entire team was not. Nor was there a tool or process to push stories around. As I said, my experience is this is not unique to EMBL. Almost every editorial team I've worked with struggles with this.	
+When I joined [EMBL](www.embl.org) a couple of months ago, this was a problem we had. Content status was done weekly, but a continually available overview by the entire team was not. Nor was there a tool or process to push stories around. As I said, my experience is this is not unique to EMBL. Almost every editorial team I've worked with struggles with this.	
 
 [Dan](https://twitter.com/thenoyes) and I got our heads together and worked on a process that would fit with the existing team and tools. The team here use Trello extensively for planning, so we started there.
 ## The one board to rule them all
@@ -34,4 +31,4 @@ Once a story is ready to go into the workflow. Meaning it is agreed, planned, as
   5.  Once it's moved, confirm by then moving the card into the archive list.
   6.  Once all that's done, check the card has actually moved.
   7.  Then post to Slack and let everyone know.
-	{{% /large-col %}}{{% /side-sm-large %}}
+	
