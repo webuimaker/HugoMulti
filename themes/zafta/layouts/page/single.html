@@ -10,11 +10,13 @@
 			
 			{{if eq .Params.sidebar true }}				
 				<div class="col-md-2 aside ">					
-						<date>{{.Params.sidebar_date}} </date><br>
-					<ul>
+						<date>Date: {{.Params.sidebar_date}} </date><br>
+						<p>
+						Filed in:
 						{{ range .Params.sidebar_Content  }}
-							<li><a href="{{.filled_url}}">{{.filled_text}} </a></li>
+							<a href="{{.filled_url}}">{{.filled_text}}</a>
 						{{end}}
+						</p>
 					</ul>					
 				</div>	
 				<div class=" col-md-10"> 

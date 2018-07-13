@@ -146,14 +146,20 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: "content/Journal.nl.md"
-        label: "Journal nl"
-        name: "journal_nl"
+      - file: "content/writing.nl.md"
+        label: "Writing nl"
+        name: "writing_nl"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: description, name: description, widget: string}
+          - {label: Sub Title, name: subTitle, widget: string}
+          - {label: description, name: description, required: false,  widget: string}
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
+          - {label: "Side Bar", name: "sidebar", widget: "boolean", default: false}
+          - {label: "Sidebar Date", name: "sidebar_date", widget: "date", default: false}
+          - {label: "Sidebar Content", name: sidebar_Content, default: false,  widget: list, fields: [
+              {label: "Filled text", name: "filled_text", widget: "string"},
+              {label: "Filled Url", name: "filled_url", widget: "string"}]}
           - {label: Body, name: body, widget: markdown}
       - file: "content/writing.md"
         label: "Writing"
@@ -164,7 +170,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: description, name: description, required: false,  widget: string}
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
-          - {label: "Sidebar", name: side_bar, widget: boolean, default: false}
           - {label: "Side Bar", name: "sidebar", widget: "boolean", default: false}
           - {label: "Sidebar Date", name: "sidebar_date", widget: "date", default: false}
           - {label: "Sidebar Content", name: sidebar_Content, default: false,  widget: list, fields: [

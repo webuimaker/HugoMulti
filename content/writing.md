@@ -10,7 +10,6 @@ subTitle: >-
 description: ''
 date: '2014-09-27'
 slug: writing
-side_bar: true
 sidebar: true
 sidebar_date: '2018-06-28'
 sidebar_Content:
