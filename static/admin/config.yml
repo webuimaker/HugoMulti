@@ -161,7 +161,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
-          - {label: description, name: description, widget: string}
+          - {label: description, name: description, required: false,  widget: string}
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
           - {label: "Side Bar", name: "sidebar", widget: "boolean", default: false}
