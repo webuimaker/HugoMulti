@@ -1,9 +1,22 @@
-+++
-title = "Artikelen"
-description = "about this site"
-date = "2014-09-27"
-slug = "artikelen"
-+++
+---
+title: Artikelen
+subTitle: >-
+  Zolang ik met redactionele teams heb gewerkt, is een inhoudspijplijn een
+  probleem geweest. Het kennen van de staat van een verhaal, de context van
+  degenen die eromheen zijn en wie wat heeft gedaan, wanneer, is van vitaal
+  belang voor het beheer van een doorvoersnelheid. Over het algemeen komt dit
+  tot uiting in een drukke, lawaaierige, fysieke omgeving. Maar hoe meer afstand
+  een team wordt, des te uitdagender het is om te communiceren over de staat van
+  verhalen.
+description: about this site
+date: '2014-09-27'
+slug: artikelen
+sidebar: true
+sidebar_date: '2018-07-04'
+sidebar_Content:
+  - filled_text: design
+    filled_url: design
+---
 
 # Redactionele planning met Trello en Zapier
 
