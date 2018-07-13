@@ -7,10 +7,17 @@ subTitle: >-
   this ﬁgures itself out in a busy, noisy, physical environment. But, the more
   remote a team becomes, the more challenging it is to communicate on the state
   of stories.
-description: test
+description: ''
 date: '2014-09-27'
 slug: writing
+side_bar: true
 sidebar: true
+sidebar_date: '2018-06-28'
+sidebar_Content:
+  - filled_text: design
+    filled_url: design
+  - filled_text: editorial
+    filled_url: editorial
 ---
 
 
