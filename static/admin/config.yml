@@ -155,14 +155,16 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: "content/Journal.md"
-        label: "Journal"
-        name: "journal"
+      - file: "content/writing.md"
+        label: "Writing"
+        name: "writing_en"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Sub Title, name: subTitle, widget: string}
           - {label: description, name: description, widget: string}
           - {label: Date, name: date, widget: string}
           - {label: Slug, name: slug, widget: string}
+          - {label: "Side Bar", name: "sidebar", widget: "boolean", default: false}
           - {label: Body, name: body, widget: markdown}
       - file: "content/privacy-policy.md"
         label: "privacy policy"

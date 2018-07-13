@@ -5,6 +5,12 @@
 {{ partial "nav.html" . }}
 	<div class="row main-row"> 
 		<div class="col-md-12 " style="">     
+			<h1>{{ .Title }}</h1>
+			{{ if .Params.subTitle   }}<p>{{ .Params.subTitle }}</p> {{end}}
+			
+		
+			
+			
 			{{ .Content }}
 		</div>
 	</div>

@@ -4,7 +4,6 @@ description: Terms of use
 date: '2014-09-27'
 slug: terms-of-use
 ---
-# Terms of use
 
 DONE CMS Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  quis nostrud exercitation ullamco laboris nisi ut \[ aliquip ex ea commodo consequat]( aliquip ex ea commodo consequat). 
 
