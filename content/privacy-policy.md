@@ -4,7 +4,6 @@ description: Privacy Policy
 date: '2014-09-27'
 slug: privacy-policy
 ---
-# Privacy Policy
 
 Arjan Please start to update code :) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  quis nostrud exercitation ullamco laboris nisi ut \[ aliquip ex ea commodo consequat]( aliquip ex ea commodo consequat). 
 
