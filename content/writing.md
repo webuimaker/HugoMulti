@@ -1,9 +1,17 @@
-+++
-title = "Editorial planning with Trello and Zapier"
-subTitle = "As long as I've been working with editorial teams a content pipeline has been a problem. Knowing the state of a story, its context to those around it, and who has done what, when, is vital in managing a content throughput. Generally, this ﬁgures itself out in a busy, noisy, physical environment. But, the more remote a team becomes, the more challenging it is to communicate on the state of stories."
-date = "2014-09-27"
-slug = "writing"
-+++
+---
+title: Editorial planning with Trello and Zapier
+subTitle: >-
+  As long as I've been working with editorial teams a content pipeline has been
+  a problem. Knowing the state of a story, its context to those around it, and
+  who has done what, when, is vital in managing a content throughput. Generally,
+  this ﬁgures itself out in a busy, noisy, physical environment. But, the more
+  remote a team becomes, the more challenging it is to communicate on the state
+  of stories.
+description: test
+date: '2014-09-27'
+slug: writing
+sidebar: true
+---
 
 
 
