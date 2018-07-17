@@ -5,7 +5,7 @@ date: '2014-02-27T14:45:07'
 slug: /over/
 Type: about
 we_about:
-  heading_left: waar we over gaan
+  heading_left: Waar we over gaan
   text_right: >-
     <p>Lorem text ipsum dolor sit amet, vivek vivek consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
