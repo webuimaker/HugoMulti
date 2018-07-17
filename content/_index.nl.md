@@ -5,8 +5,8 @@ slug: Home
 ---
 # Hallo, wij zijn [Monifa](/about/). Wij stellen voor jouw organisatie op maat digitale marketing machines samen zodat jullie makkelijk zeer effectieve campagnes kunnen draaien.
 
-# Eerder was ik dat [Design Director bij Monotype](http://www.monotype.com).  Daarvoor Mark Boulton Design. In de afgelopen paar jaar heb ik met gewerkt [Conde Nast](http://www.vogue.de),[http://home.cern](CERN), [http://www.espn.com](ESPN), and [Al Jazeera](http://www.aljazeera.com)
+# Al vanaf 1992 ben ik online en houdt me bezig met hoe Internet dienstverlening kan verbeteren.
 
-* [Ik schrijf een blog](/journal) Je kunt het laatste bericht lezen, [Redactionele planning met Trello en Zapier](/journal/editorial-planning-with-trello-and-zapier)
-* Im [momenteel aan het lezen](/reading) [Flourish - Data Visualization &amp; Verhaal vertellen](https://flourish.studio/)
+* [Ik schrijf een blog](/writing) Je kunt het laatste bericht lezen, [Redactionele planning met Trello en Zapier](/journal/editorial-planning-with-trello-and-zapier)
+* Momenteel [lees](/reading) ik [Flourish - Data Visualization & storytelling](https://flourish.studio/)
 * [We spreken op conferenties](/speaking) We zouden het geweldig vinden om te [spreken op jouw event](/contact)
