@@ -19,6 +19,10 @@
     "button_text": "Subscribe"
   },
   "Nl_footer_Subscription": {
+    "highlight_title": "Nieuw",
+    "main_title": "Geinteresseerd in praktische tips en nuttige adviezen?",
+    "sub_title": "Schrijf je dan in voor onze nieuwsbrief.",
+    "placeholder_text": "Vul je emailadres in",
     "button_text": "Meld je aan"
   }
 }
