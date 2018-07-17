@@ -8,6 +8,8 @@ slug: Home
 
 
 
-* [Ik schrijf een blog](/writing) Je kunt het laatste bericht lezen, [Redactionele planning met Trello en Zapier](/journal/editorial-planning-with-trello-and-zapier)
-* Momenteel [lees](/reading) ik [Flourish - Data Visualization & storytelling](https://flourish.studio/)
-* [We spreken op conferenties](/speaking) We zouden het geweldig vinden om te [spreken op jouw event](/contact)
+[Ik schrijf een blog](/writing) Je kunt het laatste bericht lezen, [Redactionele planning met Trello en Zapier](/journal/editorial-planning-with-trello-and-zapier)
+
+Momenteel [lees](/reading) ik [Flourish - Data Visualization & storytelling](https://flourish.studio/)
+
+[We spreken op conferenties](/speaking) We zouden het geweldig vinden om te [spreken op jouw event](/contact)
