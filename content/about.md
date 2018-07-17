@@ -71,4 +71,4 @@ testimonials:
       for this company
 ---
 
-Body text here this is not required as per Design
+Body text here is not required as per design
