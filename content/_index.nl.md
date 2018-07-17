@@ -5,7 +5,7 @@ slug: Home
 ---
 # Hallo, wij zijn [Monifa](/about/). Wij stellen voor jouw organisatie op maat digitale marketing machines samen zodat jullie makkelijk zeer effectieve campagnes kunnen draaien.
 
-# Al vanaf 1992 ben ik online en houdt me bezig met hoe Internet dienstverlening kan verbeteren.
+# Al vanaf 1992 bezig met het verbeteren van dienstverlening via Internet dienstverlening.
 
 * [Ik schrijf een blog](/writing) Je kunt het laatste bericht lezen, [Redactionele planning met Trello en Zapier](/journal/editorial-planning-with-trello-and-zapier)
 * Momenteel [lees](/reading) ik [Flourish - Data Visualization & storytelling](https://flourish.studio/)
