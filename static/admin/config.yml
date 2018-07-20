@@ -105,7 +105,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Testimonials", name: testimonials, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: Body, name: body, widget: markdown}
+          - {label: Body, name: body, widget: markdown, required: false}
       - file: "content/about.nl.md"
         label: "About NL"
         name: "about_nl"
@@ -127,7 +127,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Testimonials", name: testimonials, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: Body, name: body, widget: markdown}
+          - {label: Body, name: body, widget: markdown, required: false}
       - file: "content/colophon.md"
         label: "Colophon"
         name: "colophon"
