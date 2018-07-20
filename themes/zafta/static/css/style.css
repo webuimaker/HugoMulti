@@ -412,7 +412,7 @@ footer {
 	
 	.newsletter{
 		margin-bottom: 4.5rem;
-		max-width: 40rem;
+		
 		font-size: 1.3em;
 	}
 	.newsletter .btn-primary{
@@ -430,7 +430,7 @@ footer {
 	
 		
 		
-	.newsletter__form{position:relative;width:100%;}
+	.newsletter__form{position:relative;max-width: 40rem;}
 	@media only screen and (max-width: 719px){
 	.newsletter__form{padding-right:96.4px}
 	}
