@@ -1,6 +1,6 @@
 ---
-title: Wilt u contact opnemen
-subtitle: We houden van je hier. Gebruik alstublieft het onderstaande formulier.
+title: Wilt u contact opnemen?
+subtitle: We horen graag van je. Gebruik alstublieft het onderstaande formulier.
 date: '2014-02-27T14:45:07'
 slug: contact
 type: contact

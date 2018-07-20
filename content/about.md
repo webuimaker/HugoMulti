@@ -5,7 +5,7 @@ date: '2014-02-27T14:45:07'
 slug: /about/
 Type: about
 we_about:
-  heading_left: what we are about
+  heading_left: What we are about
   text_right: >-
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -71,4 +71,4 @@ testimonials:
       for this company
 ---
 
-Body text here this is not required as per Design
+
