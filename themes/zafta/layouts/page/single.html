@@ -5,12 +5,16 @@
 {{ partial "nav.html" . }}
 	<div class="row main-row"> 
 		<div class="col-md-12">     
-			<h1>{{ .Title }}  {{ .Params.sidebar}}</h1>
+			<h1>{{ .Title }}  {{ .Params.sidebar}} </h1>
 			{{ if .Params.subTitle   }}<p>{{ .Params.subTitle }}</p> {{end}}
 			
 			{{if eq .Params.sidebar true }}				
 				<div class="col-md-2 aside ">					
-						<date>Date: {{.Params.sidebar_date}} </date><br>
+						<date>Date: 
+						{{ with .Params.sidebarDate }}
+							{{ . | dateFormat "02 January  2006" }}
+						{{ end }}
+						</date><br>
 						<p>
 						Filed in:
 						{{ range .Params.sidebar_Content  }}

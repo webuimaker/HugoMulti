@@ -1,5 +1,5 @@
 ---
-title: Artikelen
+title: Redactionele planning met Trello en Zapier
 subTitle: >-
   Zolang ik met redactionele teams heb gewerkt, is een inhoudspijplijn een
   probleem geweest. Het kennen van de staat van een verhaal, de context van
@@ -18,13 +18,7 @@ sidebar_Content:
     filled_url: design
 ---
 
-# Redactionele planning met Trello en Zapier
-
-
-Zolang ik met redactionele teams heb gewerkt, is een inhoudspijplijn een probleem geweest. Het kennen van de staat van een verhaal, de context van degenen die eromheen zijn en wie wat heeft gedaan, wanneer, is van vitaal belang voor het beheer van een doorvoersnelheid. Over het algemeen komt dit tot uiting in een drukke, lawaaierige, fysieke omgeving. Maar hoe meer afstand een team wordt, des te uitdagender het is om te communiceren over de staat van verhalen.
-{{% side-sm-large   %}} 
-{{% sidebar date="February 9th, 2018" class="aside" %}} Opgeslagen in: [ontwerp](ontwerp)  [hoofdartikel](hoofdartikel) [zapier](zapier) [automatisering](automatisering)
-{{% /sidebar %}}{{% large-col %}}Toen ik toetrad [EMBL](www.embl.org)  een paar maanden geleden was dit een probleem dat we hadden. De contentstatus werd wekelijks gedaan, maar een voortdurend beschikbaar overzicht door het hele team was dat niet. Noch was er een hulpmiddel of proces om verhalen rond te duwen. Zoals ik al zei, mijn ervaring is dat dit niet uniek is voor EMBL. Bijna elke redactie waar ik mee heb gewerkt worstelt hiermee.
+Toen ik toetrad [EMBL](www.embl.org)  een paar maanden geleden was dit een probleem dat we hadden. De contentstatus werd wekelijks gedaan, maar een voortdurend beschikbaar overzicht door het hele team was dat niet. Noch was er een hulpmiddel of proces om verhalen rond te duwen. Zoals ik al zei, mijn ervaring is dat dit niet uniek is voor EMBL. Bijna elke redactie waar ik mee heb gewerkt worstelt hiermee.
 
 [Dan](https://twitter.com/thenoyes) en ik kwamen bij elkaar en werkten aan een proces dat paste bij het bestaande team en de tools. Het team hier gebruikt Trello uitgebreid voor planning, dus we zijn daar begonnen.
 
@@ -40,4 +34,4 @@ Zodra een verhaal klaar is om in de workflow te gaan. Dit betekent dat het is af
   5.  Once it's moved, confirm by then moving the card into the archive list.
   6.  Once all that's done, check the card has actually moved.
   7.  Then post to Slack and let everyone know.
-{{% /large-col %}}{{% /side-sm-large %}}
+

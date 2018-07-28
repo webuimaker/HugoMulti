@@ -11,7 +11,7 @@ description: ''
 date: '2014-09-27'
 slug: writing
 sidebar: true
-sidebar_date: '2018-06-28'
+sidebarDate: '2018-10-15'
 sidebar_Content:
   - filled_text: design
     filled_url: design
