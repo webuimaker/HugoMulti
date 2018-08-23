@@ -12,7 +12,7 @@ description: about this site
 date: '2014-09-27'
 slug: artikelen
 sidebar: true
-sidebar_date: '2018-07-04'
+sidebarDate: '2018-07-04'
 sidebar_Content:
   - filled_text: design
     filled_url: design

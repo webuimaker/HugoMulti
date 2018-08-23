@@ -15,5 +15,6 @@ contact_form:
   placeholder_subject: Vul onderwerp in
   subject_label: Onderwerp
   submit_text: Verstuur bericht
+  action: "/nl/thanks/"
 ---
 

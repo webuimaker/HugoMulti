@@ -9,7 +9,7 @@
 	<div class="row" style="margin-top:50px;">
 		<div class="{{ if eq .Params.form "true" }} col-md-8  col-md-push-2 {{ else }} col-md-12 {{ end }}" >			
 				{{ if eq .Params.form "true" }} 
-					<form class="contact-form" name="contact" method="POST" action="/thanks/" netlify>
+					<form class="contact-form" name="contact" method="POST" action="{{  .Params.contact_form.action }}" netlify>
 						<div class="form-group">
 							<div class="col-md-6">
 								<label>{{  .Params.contact_form.name_label }}</label>

@@ -5,6 +5,8 @@ theme = "zafta"
 #hasCJKLanguage = true
 defaultContentLanguage = "en"
 author = "ee"
+# Define the number of posts per page
+paginate = 4
 
 [params.company]
 name = "Monifa"
@@ -13,6 +15,7 @@ name = "Monifa"
 [permalinks]
 	page = "/:title/"
 	about = "/:filename/"
+    post = "/blog/:slug"
 
 	
 [Languages]
@@ -41,6 +44,12 @@ url = "/contact/"
 name = "Contact"
 weight = 4
 
+
+[[Languages.en.menu.main]]
+url = "/blog/"
+name = "Blog"
+weight = 5
+
 [Languages.nl]
 title = "Multilingual Hugo Example"
 weight = 1
@@ -65,6 +74,11 @@ weight = 3
 url = "/nl/contact/"
 name = "Contact"
 weight = 4
+
+[[Languages.nl.menu.main]]
+url = "/nl/blog/"
+name = "Blog"
+weight = 5
 
 
 [[Languages.en.menu.footer]]

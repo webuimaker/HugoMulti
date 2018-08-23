@@ -15,5 +15,6 @@ contact_form:
   placeholder_subject: Enter Subject
   subject_label: 'Subject:'
   submit_text: Send Message
+  action: "/thanks/"
 ---
 

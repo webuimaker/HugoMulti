@@ -1,0 +1,144 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+{{ partial "nav.html" . }}
+	<div class="row main-row"> 
+		<div class="col-md-12">     
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+			<div class="post-list">
+				
+				{{ if eq  $paginator.PageNumber 1}}
+					{{ range first 1 $paginator.Pages }}
+					<div class="post-portrait">
+						<div class="header">
+							<h2>{{ .Title }}  </h2>
+							<h4>{{ .Params.subTitle }}</h4>	
+						</div>
+						<div class="col-md-2 aside ">					
+							<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							<p>By:	{{ .Params.author }}</p>
+						</div>	
+						<div class="col-md-10"> 
+							{{ .Summary }}
+							<br>
+							<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<!---  Range first end -->
+					{{end}}
+				
+				
+					<div class="most-read">
+						<div class="col-md-3 col-sm-6">
+							<p>Our three most read articles so far:</p>
+						</div>				
+						{{ range first 3 ((where .Site.Pages "Type" "blog").ByParam "mostRead") }}
+							<div class="col-md-3 col-sm-6">
+								<div class="post-portrait">
+									<div class="header">
+										<h3><a  href="{{ .Permalink }}">{{ .Title }} </a> </h3>
+										<p>{{ .Params.subTitle }}</p>	
+									</div>
+									<div class="aside">					
+										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+										<p>By:	{{ .Params.author }}</p>
+									</div>	
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						{{ end }}
+						<div class="clearfix"></div>
+					</div>
+				
+				{{end}}
+				
+					{{ range $index, $value := $paginator.Pages }}
+							{{if gt $index 0 }}
+								<div class="post-portrait">
+									<div class="header">
+										<h2>{{ .Title }}  </h2>
+										<h4>{{ .Params.subTitle }}</h4>	
+									</div>
+									<div class="col-md-2 aside ">					
+										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+										<p>By:	{{ .Params.author }}</p>
+									</div>	
+									<div class="col-md-10"> 
+										{{ .Summary }}
+										<br>
+										<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							{{end}}
+						
+							{{if and (eq  $index 2) (eq  $paginator.PageNumber 1)  }}
+								<div class="subs-mid">
+									{{ partial "subscribe.html" . }}
+								</div>
+							{{end }}
+							
+					{{end}}
+				
+				{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+{{ $.Scratch.Set "dot_rendered" false }}
+<nav aria-label="page navigation">
+    <ul class="pagination">
+        <!-- Don't show on 1st and 2nd page -->
+        {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
+        <li class="page-item"><a href="{{ $pag.First.URL }}" rel="first" class="page-link">« First</a></li>
+        {{ end }}
+
+        {{ if $pag.HasPrev  }}
+        <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">‹ Prev</a></li>
+        {{ end }}
+
+        {{ range $pag.Pagers }}
+            {{ if eq . $pag }} 
+				<!-- Current Page -->
+				<li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+				{{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
+				{{ $.Scratch.Set "dot_rendered" false }} 
+				<!-- Render prev 2 page and next 2 pages -->
+				<li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+				{{ else if eq ($.Scratch.Get "dot_rendered") false }} 
+				<!-- render skip pages -->
+				{{ $.Scratch.Set "dot_rendered" true }}
+				<li class="page-item disabled"><a class="page-link">...</a></li>
+            {{ end }}
+        {{ end }}
+
+        {{ if $pag.HasNext }}
+        <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link">Next ›</a></li>
+        {{ end }}
+
+        <!-- Don't show on last and 2nd last page -->
+        {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
+        <li class="page-item"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link">Last »</a></li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}
+			
+			
+			
+			</div>
+
+			
+		
+			
+			
+			
+		</div>
+	</div>
+  
+ 
+   
+</div>
+  
+{{ partial "footer2.html" . }}
+
+
+ 

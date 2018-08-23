@@ -26,7 +26,7 @@ a:hover {
 }
 
 ol,ul{
-	    margin: 1em 0 1em 0;
+	margin: 1em 0 1em 0;
     padding: 0;
 	}
 ul li, ol li {
@@ -385,7 +385,7 @@ footer {
 		content: "";
 		height: 3px;
 		width: calc(100% - 30px);
-		border-bottom: 3px dashed rgba(0, 0, 0, 0.1);
+		border-top:3px dashed rgba(0, 0, 0, 0.1);
 		bottom: 0px;
 		position: absolute;
 		margin: 0px auto;
@@ -396,7 +396,7 @@ footer {
 		content: "";
 		height: 3px;
 		width: calc(100% - 30px);
-		border-top: 3px dashed rgba(0, 0, 0, 0.1);
+		border-top:3px dashed rgba(0, 0, 0, 0.1);
 		top: 0px;
 		position: absolute;
 		margin: 0px auto;
@@ -404,10 +404,33 @@ footer {
 		right: 0px;
 	}
 	.footer-new{
-		border-top:3px dashed rgba(0, 0, 0, 0.1);
+		/*border-top:3px dashed rgba(0, 0, 0, 0.1);
+		border-top: 2px solid rgb(43, 123, 205);*/
 		margin-top:20px;
 		padding-top:20px;
 		margin-bottom:1em;
+		position:relative;
+	}
+	.footer-new:before{
+		content: "";
+		height: 3px;
+		width: calc(100% - 30px);
+		border-top:3px dashed rgba(0, 0, 0, 0.1);
+		top: 0px;
+		position: absolute;
+		margin: 0px auto;
+		left: 0px;
+		right: 0px;
+	}
+	.container .row.border-section:last-child{
+		margin-bottom:0px;
+	}
+	.container .row.main-row:last-child{
+		padding-bottom:50px;	
+		
+	}
+	.container .row.border-section:last-child:after{
+		display:none;
 	}
 	
 	.newsletter{
@@ -457,7 +480,68 @@ footer {
 	.contact-form  .form-group .form-control{
 		border-radius:0px;
 	}
+	.post-portrait{
+		border-bottom:  1px solid  #689cca;
+		padding-bottom: 2em;
+		margin-bottom: 2em;
 	
+	}
+	.post-portrait h2{
+		margin-bottom:0px;
+	} 
+	.post-portrait  .header{margin-bottom:1.3em;}
+	.post-portrait  .readmore{margin-top:1.3em; display:inline-block; border-bottom:none;}
+	.most-read {
+		border-bottom:  1px solid  #689cca;
+		margin-top:1em;
+	}
+	.most-read .post-portrait  h3{font-weight:500}
+	.most-read .post-portrait   a{text-decoration:none; border:0px;}
+	.most-read .post-portrait{
+		border-bottom:0px;
+		padding-bottom:0px;
+		margin-bottom:0px;
+	}
+	.subs-mid .row.border-section:before{ 
+		bottom:0px;
+		top:auto;
+		
+	}
+	.subs-mid .row.border-section{
+		padding-top:0px;
+	}
+	
+/************* Blog Details ************/
+.main-row  .block h1{
+	font-size: 36px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main-row  .block h1 small{
+	    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.main-row  .block  h2{
+	font-size: 30px;
+	font-weight:400;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main-row  .block {
+	font-size:15px;
+}
+.post-info-wrapper{
+	font-weight:normal;
+	font-size:14px;
+	color: #8e8e8e;
+}
+.post-info-wrapper .bold{
+	font-weight: 500;
+	color:#333;
+}
+
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				
