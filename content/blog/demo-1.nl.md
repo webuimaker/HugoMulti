@@ -1,7 +1,7 @@
 +++
 title = "Demo1 Test Blog nl"
 subTitle = "Test page"
-date= 2018-08-10
+date = 2018-08-10
 tags = ["demo"]
 categories = ["starting"]
 author = "Vivek Kumar"
