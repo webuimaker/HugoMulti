@@ -1,7 +1,7 @@
 +++
 title = "Creating a new theme"
 subTitle = "Test page"
-date = 2018-07-22
+date = "2018-07-22"
 tags = ["theme"]
 categories = ["starting"]
 images = ""
