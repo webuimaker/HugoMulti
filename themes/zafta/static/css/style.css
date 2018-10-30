@@ -106,6 +106,18 @@ ul li, ol li {
 .no-padding-bottom { padding-bottom:0 !important; }
 .btn-primary{border-radius:0px;}
 
+.navbar-toggle{
+	background:#b2b7bb;
+}
+.navbar-toggle .icon-bar{
+	background:#525252;
+}
+.navbar-toggle:hover {
+	background:#2b7bcd;
+}
+.navbar-toggle:hover .icon-bar{
+	background:#fff;
+}
 .logo{
 	 font-size: 1.15em;
 	 background-color: #2b7bcd;
