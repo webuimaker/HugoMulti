@@ -571,8 +571,15 @@ footer {
 }	
 
 @media (max-width: 767px) {
+	p + p {
+		text-indent: 0em;
+	}
 	.main-row h1, .main-row h2{
 		margin-left:0px;
+	}
+	.form-subscribe{
+		padding: 34px 30px;
+		margin: 20px 0px 0px;
 	}
 
 }	

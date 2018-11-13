@@ -6,7 +6,7 @@
 
 	<h1 class="title">{{ .Title  }}</h1>
 	<h3 class="sub-title"> {{ .Params.subtitle }} <span>{{ .Params.subtitleLight }}</span> </h3>
-	<div class="row" style="margin-top:50px;">
+	<div class="row">
 		<div class="{{ if eq .Params.form "true" }} col-md-8  col-md-push-2 {{ else }} col-md-12 {{ end }}" >			
 				{{ if eq .Params.form "true" }} 
 					<form class="contact-form" name="contact" method="POST" action="{{  .Params.contact_form.action }}" netlify>
