@@ -177,6 +177,9 @@ h1{margin-bottom:0px;}
         margin-right: 1em; 
 		    font-size: 1.15em;
 }
+.navTop #navbar ul li:last-child{
+	display:none;
+}
         .navTop #navbar ul li a {
           text-decoration: none;
           border: none; 
@@ -251,8 +254,13 @@ font-weight:600;
     line-height: 1.6;
     color: #666666;
     margin: 5px 0 1.5em 0;
+	/*padding-left:0px;*/
+}
+
+.aside.aside-blog{
 	padding-left:0px;
 }
+
 /* footer */
 
 footer {
@@ -368,7 +376,6 @@ footer {
 		font-weight:700;
 		margin-bottom:25px;
 	}
-	
 	p + p {
 		text-indent: 2em;
 	}
@@ -574,6 +581,16 @@ footer {
 	p + p {
 		text-indent: 0em;
 	}
+	.navTop .navbar-collapse{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.navTop #navbar ul li{
+		margin-right:0.2em;
+	}
+	.navTop #navbar ul li a{
+		padding:10px;
+	}
 	.main-row h1, .main-row h2{
 		margin-left:0px;
 	}
@@ -581,5 +598,19 @@ footer {
 		padding: 34px 30px;
 		margin: 20px 0px 0px;
 	}
-
+	.main-row ol{
+		margin-left:1em;
+	}
+	.aside-blog{
+		padding-left:15px;
+	}
+	.main-blog{
+		padding-left:0px;
+	}
+	.most-read{
+		margin-left:-15px;
+	}
+	.fot-left{
+		text-align:left;
+	}
 }	

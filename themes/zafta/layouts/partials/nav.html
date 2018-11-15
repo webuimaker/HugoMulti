@@ -11,7 +11,9 @@
           </a>
         </div>
 		<div id="navbar" class="collapse navbar-collapse">
-			{{ partial "allLanguages.html" . }}
+			<span class="hidden-xs">
+				{{ partial "allLanguages.html" . }}
+			</span>
 			<ul class="nav navbar-nav navbar-right">
 				{{- $currentPage := . -}}
 				 {{ $url1 := $currentPage.URL }}
@@ -27,6 +29,9 @@
 					</li>
 				{{- end }}
 			</ul>
+			<span class="hidden-sm hidden-md hidden-lg">
+				{{ partial "allLanguages.html" . }}
+			</span>
 		
         </div>
 	</div>

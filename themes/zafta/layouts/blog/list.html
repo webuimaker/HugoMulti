@@ -14,11 +14,11 @@
 							<h2>{{ .Title }}  </h2>
 							<h4>{{ .Params.subTitle }}</h4>	
 						</div>
-						<div class="col-md-2 aside ">					
+						<div class="col-md-2 aside aside-blog">					
 							<date>{{ .Date | dateFormat "02 January  2006" }}</date>
 							<p>By:	{{ .Params.author }}</p>
 						</div>	
-						<div class="col-md-10"> 
+						<div class="col-md-10 main-blog"> 
 							{{ .Summary }}
 							<br>
 							<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
@@ -40,7 +40,7 @@
 										<h3><a  href="{{ .Permalink }}">{{ .Title }} </a> </h3>
 										<p>{{ .Params.subTitle }}</p>	
 									</div>
-									<div class="aside">					
+									<div class="aside aside-blog">					
 										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
 										<p>By:	{{ .Params.author }}</p>
 									</div>	
@@ -60,11 +60,11 @@
 										<h2>{{ .Title }}  </h2>
 										<h4>{{ .Params.subTitle }}</h4>	
 									</div>
-									<div class="col-md-2 aside ">					
+									<div class="col-md-2 aside aside-blog">					
 										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
 										<p>By:	{{ .Params.author }}</p>
 									</div>	
-									<div class="col-md-10"> 
+									<div class="col-md-10 main-blog"> 
 										{{ .Summary }}
 										<br>
 										<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
