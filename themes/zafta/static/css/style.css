@@ -613,4 +613,11 @@ footer {
 	.fot-left{
 		text-align:left;
 	}
+	.footer-new nav ul {
+		text-align:center;
+		justify-content: center;
+	}
+	.footer-new nav ul  li{
+		flex:none;
+	}
 }	
