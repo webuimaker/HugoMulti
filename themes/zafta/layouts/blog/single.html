@@ -11,19 +11,43 @@
 					{{ if .Params.subTitle   }}<small>{{ .Params.subTitle }}</small> {{end}}
 				</h1>
 	            <div class="post-info-wrapper">
-	              <p class="">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span></p>
+	              <p class=""> {{ if .Params.author }}{{ if eq $.Lang "nl" }} Door: {{else}} By: {{end}} {{end}} <span class="bold">{{ .Params.author }}</span> on  
+				  
+				  
+				  
+				  <span class="bold">{{ if eq $.Lang "nl" }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+							</time>
+							{{else}}
+								<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							
+							{{end}}</span></p>
 	            </div>
 	            <hr />
 	        </div>
-		
 			
 			{{if eq .Params.sidebar true }}				
-				<div class="col-md-2 aside ">					
+				<div class="col-md-2 aside ">	
+						
+				
 						<date>Date: 
 						{{ with .Params.sidebarDate }}
-							{{ . | dateFormat "02 January  2006" }}
+							{{ if eq $.Lang "nl" }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+							</time>
+							{{else}}
+								<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							
+							{{end}}
+							
+							
 						{{ end }}
 						</date><br>
+						
+						
+						
 						<p>
 						Filed in:
 						{{ range .Params.sidebar_Content  }}

@@ -14,14 +14,22 @@
 							<h2>{{ .Title }}  </h2>
 							<h4>{{ .Params.subTitle }}</h4>	
 						</div>
-						<div class="col-md-2 aside aside-blog">					
-							<date>{{ .Date | dateFormat "02 January  2006" }}</date>
-							<p>By:	{{ .Params.author }}</p>
+						<div class="col-md-2 aside aside-blog">	
+							{{ if eq $.Lang "nl" }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+							</time>
+							{{else}}
+								<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							
+							{{end}}
+							
+							<p>{{ if .Params.author }} {{ if eq $.Lang "nl" }} Door: {{else}} By: {{end}}{{end}}	{{ .Params.author }}</p>
 						</div>	
 						<div class="col-md-10 main-blog"> 
 							{{ .Summary }}
 							<br>
-							<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
+							<a class="readmore" href="{{ .Permalink }}">{{ if eq $.Lang "nl" }} Lees verder {{else}} Read More {{end}} >>></a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -31,7 +39,14 @@
 				
 					<div class="most-read">
 						<div class="col-md-3 col-sm-6">
-							<p>Our three most read articles so far:</p>
+							<p>{{ if eq $.Lang "nl" }}
+								Onze drie populairste artikelen:
+							{{else}}
+							Our three most read articles so far:
+							{{end}}
+							</p>
+							
+							
 						</div>				
 						{{ range first 3 ((where .Site.Pages "Type" "blog").ByParam "mostRead") }}
 							<div class="col-md-3 col-sm-6">
@@ -41,8 +56,15 @@
 										<p>{{ .Params.subTitle }}</p>	
 									</div>
 									<div class="aside aside-blog">					
-										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
-										<p>By:	{{ .Params.author }}</p>
+										{{ if eq $.Lang "nl" }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+							</time>
+							{{else}}
+								<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							
+							{{end}}
+										<p>{{ if .Params.author }}{{ if eq $.Lang "nl" }} Door: {{else}} By: {{end}}{{end}}	{{ .Params.author }}</p>
 									</div>	
 									<div class="clearfix"></div>
 								</div>
@@ -61,13 +83,20 @@
 										<h4>{{ .Params.subTitle }}</h4>	
 									</div>
 									<div class="col-md-2 aside aside-blog">					
-										<date>{{ .Date | dateFormat "02 January  2006" }}</date>
-										<p>By:	{{ .Params.author }}</p>
+										{{ if eq $.Lang "nl" }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} 
+							</time>
+							{{else}}
+								<date>{{ .Date | dateFormat "02 January  2006" }}</date>
+							
+							{{end}}
+										<p>{{ if .Params.author }}{{ if eq $.Lang "nl" }} Door: {{else}} By: {{end}} {{end}}	{{ .Params.author }}</p>
 									</div>	
 									<div class="col-md-10 main-blog"> 
 										{{ .Summary }}
 										<br>
-										<a class="readmore" href="{{ .Permalink }}">Read More >>></a>
+										<a class="readmore" href="{{ .Permalink }}">  {{ if eq $.Lang "nl" }} Lees verder {{else}} Read More {{end}}   >>></a>
 									</div>
 									<div class="clearfix"></div>
 								</div>
