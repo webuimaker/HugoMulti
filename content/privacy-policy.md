@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: Privacy Policy
-date: '2014-09-27'
+date: '2019-02-11'
 slug: privacy-policy
 ---
 # PRIVACY POLICY
