@@ -1,7 +1,7 @@
 ---
 title: Privacybeleid
 description: Privacybeleid
-date: '2014-09-27'
+date: '2019-02-11'
 slug: privacybeleid
 ---
 Dit is de Privacy Policy van ArtlinQ B.V. (hierna te noemen “ArtlinQ”, "wij," "ons" of "onze"), een onderneming met adres Oranjeriestraat 15, Zwolle. ArtlinQ is ingeschreven bij de Kamer van Koophandel onder nummer 007. Deze Privacy Policy legt uit hoe wij gegevens verzamelen, gebruiken, delen en beschermen in relatie tot onze website ArtlinQ.com (de “Website”). Wij verzamelen deze gegevens wanneer u onze Website bezoekt met uw computer, tablet of mobiele telefoon (“Computer”). Wij verwerken persoonsgegevens op een manier die in overeenstemming is met de Algemene Verordening Gegevensbescherming (de “AVG”), de op de AVG gebaseerde uitvoeringswetgeving en de andere op dit moment geldende privacywetgeving.
