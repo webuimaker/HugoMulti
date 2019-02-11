@@ -4,8 +4,6 @@ description: Privacy Policy
 date: '2019-02-11'
 slug: privacy-policy
 ---
-# PRIVACY POLICY
-
 This is the Privacy Policy of ArtlinQ B.V. (hereinafter referred to as "ArtlinQ," "we," "us" or "our"), a company having its address at Oranjeriestraat 15, 8043 PT Zwolle. ArtlinQ is registered with the Chamber of Commerce under number 007. Our Privacy Policy explains how we collect, use, share and protect information in relation to our website www.artlinq.com (the "Service"). We collect this information when you visit our website with your computer, tablet or mobile phone (“Computer”). We process personal data in a manner that is in accordance with the General Data Protection Regulation (the “GDPR”), the GDPR-based legislation and the other current privacy legislation. 
 
 By using the Service, you understand and agree to the collection and use of information in accordance with this Privacy Policy. Our Privacy Policy applies to all visitors, users, and others who access the Service ("Users").
