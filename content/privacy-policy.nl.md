@@ -10,11 +10,11 @@ Door het gebruiken van onze Website, begrijpt u en gaat u akkoord met het verzam
 ## Wat voor gegevens verzamelen wij?
 
 Wij verzamelen de volgende gegevens die u ons verstrekt:
-a.	E-mailadres
-b.	Naam
-c.	Telefoonnummer
-d.	IP-adres
-e.	Communicatie tussen ArtlinQ en u (wij mogen u dienst-gerelateerde e-mails sturen)
+- E-mailadres
+- Naam
+- Telefoonnummer
+- IP-adres
+- Communicatie tussen ArtlinQ en u (wij mogen u dienst-gerelateerde e-mails sturen)
 
 ### Log file informatie 
 Wij verzamelen alleen informatie die uw browser stuurt als u onze Website bezoekt wanneer dit noodzakelijk is voor het goed functioneren van de Website. Onder het goed functioneren van de Website verstaan wij met name het beschermen van de Website tegen handelingen die de veiligheid van de Website en van uw Computer in gevaar kunnen brengen. Dit logbestand kan informatie bevatten zoals uw IP-adres, browser-type, browser-versie, de pagina’s van onze Website die u bezoekt, de tijd en datum van uw bezoek, de tijd die u besteedt op deze pagina’s en andere statistieken. 
