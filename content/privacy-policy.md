@@ -1,14 +1,82 @@
 ---
 title: Privacy Policy
 description: Privacy Policy
-date: '2014-09-27'
+date: '2019-02-11'
 slug: privacy-policy
 ---
+# PRIVACY POLICY
 
-Vivek, will do shortly ;-) Arjan Please start to update code :) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  quis nostrud exercitation ullamco laboris nisi ut \[ aliquip ex ea commodo consequat]( aliquip ex ea commodo consequat). 
+This is the Privacy Policy of ArtlinQ B.V. (hereinafter referred to as "ArtlinQ," "we," "us" or "our"), a company having its address at Oranjeriestraat 15, 8043 PT Zwolle. ArtlinQ is registered with the Chamber of Commerce under number 007. Our Privacy Policy explains how we collect, use, share and protect information in relation to our website www.artlinq.com (the "Service"). We collect this information when you visit our website with your computer, tablet or mobile phone (“Computer”). We process personal data in a manner that is in accordance with the General Data Protection Regulation (the “GDPR”), the GDPR-based legislation and the other current privacy legislation. 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+By using the Service, you understand and agree to the collection and use of information in accordance with this Privacy Policy. Our Privacy Policy applies to all visitors, users, and others who access the Service ("Users").
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+## What kinds of information do we collect?
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+### Information you provide
+
+We collect the following information you provide us with directly:
+a.	Your name;
+b.	Your phone number;
+c.	Communications between you and ArtlinQ (e.g., we may send you Service-related emails);
+
+### Log file information
+
+We collect information that your browser sends whenever you visit our Service. This log file information may include information such as your computer's Internet Protocol address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics.
+
+### Analytics services (non-personally identifiable information only)
+
+We use third-party analytics tools to help us measure traffic and usage trends for the Service. These tools collect information sent by your device or our Service, including the web pages you visit, add-ons, and other information that assists us in improving the Service. The tools use ‘cookies’, which are text files placed on your device, to collect your log information and behavior information in an anonymous form. We collect and use this analytics information with analytics information from other Users so that it cannot reasonably be used to identify any particular individual User. With respect to Google Analytics, although Google Analytics plants a permanent cookie on your web browser to identify you, the cookie cannot be used by anyone but Google. Google’s ability to use and share information collected by Google Analytics about your visits is restricted by the Google Analytics Terms of Use and the Google Privacy Policy. You can prevent Google Analytics from recognizing you on return visits by disabling cookies.
+
+## How do we use this information?
+
+We use all of the information we have to help us provide and support our Services. Here is how:
+- remember information so you will not have to re-enter it during your visit or the next time you visit the Service;
+- provide, improve, test, and monitor the effectiveness of our Service;
+- monitor metrics such as total number of visitors, traffic, and demographic patterns;
+- diagnose or fix technology problems; 
+- develop and test new products and features.
+
+## How is this information shared?
+
+We will not rent or sell your information to third parties outside ArtlinQ.
+
+### Change of control
+
+If we sell or otherwise transfer part or the whole of ArtlinQ or our assets to another organization (e.g., in the course of a transaction like a merger, acquisition, bankruptcy, dissolution, liquidation), your information collected through the Service may be among the items sold or transferred. The buyer or transferee will have to honor the commitments we have made in this Privacy Policy.
+
+### Legal requests and preventing harm
+
+We may access, preserve and share your information in response to a legal request (like a search warrant, court order or subpoena) if we have a good faith belief that the law requires us to do so. We may also access, preserve and share information when we have a good faith belief it is necessary to: detect, prevent and address fraud and other illegal activity; to protect ourselves, you and others, including as part of investigations; and to prevent death or imminent bodily harm. Information we receive about you may be accessed, processed and retained for an extended period of time when it is the subject of a legal request or obligation, governmental investigation, or investigations concerning possible violations of our terms or policies, or otherwise to prevent harm.
+    
+
+### Safety and security
+
+ArtlinQ has taken appropriate technical and organizational measures by using the latest technologies to protect your information against loss or unlawful processing. We use safeguards to help keep the information collected through the Service secure. However, ArtlinQ cannot ensure the security of any information you transmit to ArtlinQ or guarantee that information on the Service may not be accessed, disclosed, altered, or destroyed. We request you to do your part to help us. You are responsible for controlling access to emails between you and ArtlinQ, at all times. We are not responsible for the functionality, privacy, or security measures of any other organization.
+
+## International transfer
+
+Your information may be transferred to, and maintained on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction. If you are located outside Netherlands and choose to provide information to us, please note that we transfer the information to The Netherlands. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer. 
+
+## Retention period
+
+In accordance with the law, ArtlinQ does not retain data any longer than is required for attaining the purposes for which they were collected.
+
+## Inspection and correction
+
+If you wish to know which of your data ArtlinQ has recorded or if you wish to amend or remove data that you cannot amend via your account, please contact ArtlinQ. 
+
+## Third-party applications, websites and services
+
+We are not responsible for the practices employed by any applications, websites or services linked to or from our Service, including the information or content contained within them. Please remember that when you use a link to go from our Service to another application, website or service, our Privacy Policy does not apply to those third-party applications, websites or services. Your browsing and interaction on any third-party application, website or service, including those that have a link on our Services, are subject to that third party's own rules and policies.
+
+## Children's privacy
+
+Our Service does not address anyone under the age of 13 ("Children"). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your Children has provided us with personal information, please contact us. If we become aware that we have collected personal information from a child under age 13 without verification of parental consent, we take steps to remove that information from our servers.
+
+## Changes to this privacy policy
+
+We may modify or update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+## How to contact us
+
+If you have any questions about this Privacy Policy of the Service, please send an email to privacy@artlinq.com.
