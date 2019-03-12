@@ -10,8 +10,8 @@ subTitle: >-
 description: ''
 date: '2014-09-27'
 slug: writing
-sidebar: true
-sidebarDate: '2018-10-15'
+sidebar: false
+sidebar_date: '2019-03-12'
 sidebar_Content:
   - filled_text: design
     filled_url: design
